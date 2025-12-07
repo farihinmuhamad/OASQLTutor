@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic7_dropdba-h1",
+    "title": "Bahaya",
+    "text": "Perintah ini tidak bisa dibatalkan.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic7_dropdba-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: DROP DATABASE toko_lama",
+    "type": "solution",
+    "dependencies": [
+      "topic7_dropdba-h1"
+    ],
+    "variabilization": {}
+  }
+]

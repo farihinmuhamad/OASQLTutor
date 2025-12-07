@@ -1,0 +1,9 @@
+{
+  "id": "topic4_joins_intro",
+  "title": "Join: Pengantar",
+  "body": "Join digunakan untuk menggabungkan baris dari dua tabel atau lebih berdasarkan kolom yang berhubungan.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "4.1 Join dan Relasi",
+  "courseName": "Pengantar SQL"
+}

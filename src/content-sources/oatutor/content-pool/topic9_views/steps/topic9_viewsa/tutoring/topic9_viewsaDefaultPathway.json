@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic9_viewsa-h1",
+    "title": "As Select",
+    "text": "CREATE VIEW nama AS SELECT ...",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic9_viewsa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE VIEW view_aktif AS SELECT * FROM karyawan WHERE status = 'aktif'",
+    "type": "solution",
+    "dependencies": [
+      "topic9_viewsa-h1"
+    ],
+    "variabilization": {}
+  }
+]

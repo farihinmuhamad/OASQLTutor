@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic8_foreignkeya-h1",
+    "title": "References",
+    "text": "Gunakan REFERENCES nama_tabel_induk(kolom).",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic8_foreignkeya-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE TABLE pesanan (user_id INT, FOREIGN KEY (user_id) REFERENCES user(id))",
+    "type": "solution",
+    "dependencies": [
+      "topic8_foreignkeya-h1"
+    ],
+    "variabilization": {}
+  }
+]

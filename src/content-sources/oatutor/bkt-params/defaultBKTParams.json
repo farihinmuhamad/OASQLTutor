@@ -1,0 +1,218 @@
+{
+    "sql_select_basic": {
+        "probMastery": 0.4,
+        "probTransit": 0.2,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_select_distinct": {
+        "probMastery": 0.3,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_select_top": {
+        "probMastery": 0.3,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_order_by": {
+        "probMastery": 0.3,
+        "probTransit": 0.15,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_aliases": {
+        "probMastery": 0.3,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_select_comments": {
+        "probMastery": 0.4,
+        "probTransit": 0.2,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_null_values": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_where": {
+        "probMastery": 0.3,
+        "probTransit": 0.15,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_logic_operators": {
+        "probMastery": 0.3,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_like_wildcards": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_in_between": {
+        "probMastery": 0.25,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_case": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "sql_null_functions": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "sql_aggr_basic": {
+        "probMastery": 0.3,
+        "probTransit": 0.15,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_count_sum_avg": {
+        "probMastery": 0.3,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_groupby": {
+        "probMastery": 0.15,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "sql_having": {
+        "probMastery": 0.15,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "sql_join_inner": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "sql_join_outer": {
+        "probMastery": 0.15,
+        "probTransit": 0.1,
+        "probSlip": 0.15,
+        "probGuess": 0.1
+    },
+    "sql_self_join": {
+        "probMastery": 0.1,
+        "probTransit": 0.05,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "sql_union": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_subquery_exists": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "sql_subquery_anyall": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "sql_insert": {
+        "probMastery": 0.3,
+        "probTransit": 0.15,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_update": {
+        "probMastery": 0.25,
+        "probTransit": 0.15,
+        "probSlip": 0.15,
+        "probGuess": 0.2
+    },
+    "sql_delete": {
+        "probMastery": 0.3,
+        "probTransit": 0.15,
+        "probSlip": 0.2,
+        "probGuess": 0.2
+    },
+    "sql_create_drop": {
+        "probMastery": 0.3,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_alter": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_constraint_key": {
+        "probMastery": 0.25,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_constraint_check": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_constraint_null": {
+        "probMastery": 0.3,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_views": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_stored_proc": {
+        "probMastery": 0.1,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.1
+    },
+    "sql_index": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_dates": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    },
+    "sql_backup": {
+        "probMastery": 0.2,
+        "probTransit": 0.1,
+        "probSlip": 0.1,
+        "probGuess": 0.2
+    }
+}

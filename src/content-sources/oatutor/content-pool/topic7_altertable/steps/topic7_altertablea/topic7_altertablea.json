@@ -1,0 +1,12 @@
+{
+  "id": "topic7_altertablea",
+  "stepAnswer": [
+    "ALTER TABLE barang ADD harga INT",
+    "ALTER TABLE barang ADD COLUMN harga INT"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Tambah Kolom",
+  "stepBody": "Tambahkan kolom 'harga' dengan tipe INT ke tabel 'barang'.",
+  "answerType": "string",
+  "variabilization": {}
+}

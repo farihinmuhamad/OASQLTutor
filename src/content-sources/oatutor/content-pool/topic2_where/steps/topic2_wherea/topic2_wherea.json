@@ -1,0 +1,15 @@
+{
+  "id": "topic2_wherea",
+  "stepAnswer": [
+    "SELECT * FROM produk WHERE kategori = 'Elektronik'",
+    "SELECT * FROM produk WHERE kategori = 'Elektronik';",
+    "select * from produk where kategori = 'Elektronik'",
+    "select * from produk where kategori = 'Elektronik';",
+    "select * from produk where kategori = 'elektronik'"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Filter Kategori",
+  "stepBody": "Tuliskan query untuk menampilkan seluruh data/record dari tabel 'produk' yang memiliki kategori 'Elektronik'.",
+  "answerType": "string",
+  "variabilization": {}
+}

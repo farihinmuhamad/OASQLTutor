@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic9_storedproca-h1",
+    "title": "Create Procedure",
+    "text": "Sintaks dasar: CREATE PROCEDURE nama AS ...",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic9_storedproca-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE PROCEDURE cek_stok AS SELECT * FROM stok",
+    "type": "solution",
+    "dependencies": [
+      "topic9_storedproca-h1"
+    ],
+    "variabilization": {}
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic6_updatea-h1",
+    "title": "Hati-hati Where",
+    "text": "Jangan lupa WHERE, atau semua data akan berubah!",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic6_updatea-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: UPDATE pelanggan SET kota = 'Surabaya' WHERE nama = 'Budi'",
+    "type": "solution",
+    "dependencies": [
+      "topic6_updatea-h1"
+    ],
+    "variabilization": {}
+  }
+]

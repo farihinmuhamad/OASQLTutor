@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic7_createdba-h1",
+    "title": "Syntax",
+    "text": "CREATE DATABASE nama_db",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic7_createdba-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE DATABASE toko_online",
+    "type": "solution",
+    "dependencies": [
+      "topic7_createdba-h1"
+    ],
+    "variabilization": {}
+  }
+]

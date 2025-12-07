@@ -1,0 +1,9 @@
+{
+  "id": "topic2_like",
+  "title": "Operator dan Kondisi: Pencarian Pola Kesamaan (LIKE)",
+  "body": "Jika kita tidak mengetahui nama lengkap dari sesuatu yang kita cari, kita bisa mencari pola kesamaan teks menggunakan operator LIKE.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "2.1 Operator dan Kondisi",
+  "courseName": "Pengantar SQL"
+}

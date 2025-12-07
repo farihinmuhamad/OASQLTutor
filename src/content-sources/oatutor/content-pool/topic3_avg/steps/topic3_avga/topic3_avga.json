@@ -1,0 +1,12 @@
+{
+  "id": "topic3_avga",
+  "stepAnswer": [
+    "SELECT AVG(gaji) FROM karyawan",
+    "SELECT AVG(gaji) FROM karyawan;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Rata-rata Gaji",
+  "stepBody": "Kembali ke tabel 'karyawan'. Hitung rata-rata 'gaji' seluruh karyawan.",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic2_likea-h1",
+    "title": "Operator LIKE",
+    "text": "Gunakan: WHERE kolom LIKE 'pola'",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_likea-h2",
+    "title": "Simbol Persen",
+    "text": "Gunakan tanda persen (%) setelah huruf S untuk mewakili 'karakter apa saja setelahnya'.",
+    "type": "hint",
+    "dependencies": [
+      "topic2_likea-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_likea-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT * FROM pelanggan WHERE nama LIKE 'S%'",
+    "type": "solution",
+    "dependencies": [
+      "topic2_likea-h2"
+    ],
+    "variabilization": {}
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "courseName": "Pengantar SQL",
+    "courseOER": "https://oatutor.io",
+    "courseLicense": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+    "lessons": [
+      {
+        "id": "1.1 Query Dasar",
+        "name": "Topik 1: Query Dasar",
+        "topics": "Select, Distinct, Top, Order By, Aliases, Comments, Null Values",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_select_basic": 0.95,
+          "sql_select_distinct": 0.95,
+          "sql_select_top": 0.95,
+          "sql_order_by": 0.95,
+          "sql_aliases": 0.95,
+          "sql_select_comments": 0.95,
+          "sql_null_values": 0.95
+        },
+        "problems": [
+          "topic1_select",
+          "topic1_distinct",
+          "topic1_top",
+          "topic1_orderby",
+          "topic1_aliases",
+          "topic1_comments",
+          "topic1_nulls"
+        ]
+      },
+      {
+        "id": "2.1 Operator dan Kondisi",
+        "name": "Topik 2: Operator dan Kondisi",
+        "topics": "Where, And/Or/Not, Like, Wildcards, In, Between, Case, Null Functions",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_where": 0.95,
+          "sql_logic_operators": 0.95,
+          "sql_like_wildcards": 0.95,
+          "sql_in_between": 0.95,
+          "sql_case": 0.95,
+          "sql_null_functions": 0.95
+        },
+        "problems": [
+          "topic2_where",
+          "topic2_operators",
+          "topic2_logic",
+          "topic2_like",
+          "topic2_wildcards",
+          "topic2_in",
+          "topic2_between",
+          "topic2_case",
+          "topic2_nullfunctions"
+        ]
+      },
+      {
+        "id": "3.1 Fungsi Agregasi",
+        "name": "Topik 3: Fungsi Agregasi",
+        "topics": "Min/Max, Count, Sum, Avg, Group By, Having",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_aggr_basic": 0.95,
+          "sql_count_sum_avg": 0.95,
+          "sql_groupby": 0.95,
+          "sql_having": 0.95
+        },
+        "problems": [
+          "topic3_minmax",
+          "topic3_count",
+          "topic3_sum",
+          "topic3_avg",
+          "topic3_groupby",
+          "topic3_having"
+        ]
+      },
+      {
+        "id": "4.1 Join dan Relasi",
+        "name": "Topik 4: Join dan Relasi",
+        "topics": "Inner, Left, Right, Full, Self Join, Union",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_join_inner": 0.95,
+          "sql_join_outer": 0.95,
+          "sql_self_join": 0.95,
+          "sql_union": 0.95
+        },
+        "problems": [
+          "topic4_joins_intro",
+          "topic4_inner",
+          "topic4_left",
+          "topic4_right",
+          "topic4_full",
+          "topic4_self",
+          "topic4_union",
+          "topic4_unionall"
+        ]
+      },
+      {
+        "id": "5.1 Subquery",
+        "name": "Topik 5: Subquery",
+        "topics": "Exists, Any, All",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_subquery_exists": 0.95,
+          "sql_subquery_anyall": 0.95
+        },
+        "problems": [
+          "topic5_exists",
+          "topic5_any",
+          "topic5_all"
+        ]
+      },
+      {
+        "id": "6.1 DML",
+        "name": "Topik 6: Data Manipulation (DML)",
+        "topics": "Insert Into, Update, Delete",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_insert": 0.95,
+          "sql_update": 0.95,
+          "sql_delete": 0.95
+        },
+        "problems": [
+          "topic6_insert",
+          "topic6_update",
+          "topic6_delete"
+        ]
+      },
+      {
+        "id": "7.1 DDL",
+        "name": "Topik 7: Data Definition (DDL)",
+        "topics": "Create/Drop DB & Table, Alter Table",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_create_drop": 0.95,
+          "sql_alter": 0.95
+        },
+        "problems": [
+          "topic7_createdb",
+          "topic7_dropdb",
+          "topic7_createtable",
+          "topic7_droptable",
+          "topic7_altertable"
+        ]
+      },
+      {
+        "id": "8.1 Constraint",
+        "name": "Topik 8: Constraint",
+        "topics": "Primary Key, Foreign Key, Not Null, Unique, Check, Default",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_constraint_key": 0.95,
+          "sql_constraint_check": 0.95,
+          "sql_constraint_null": 0.95
+        },
+        "problems": [
+          "topic8_notnull",
+          "topic8_unique",
+          "topic8_primarykey",
+          "topic8_foreignkey",
+          "topic8_check",
+          "topic8_default",
+          "topic8_autoincrement"
+        ]
+      },
+      {
+        "id": "9.1 Objek Database",
+        "name": "Topik 9: Objek Database",
+        "topics": "Index, Views, Stored Procedures",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_views": 0.95,
+          "sql_stored_proc": 0.95,
+          "sql_index": 0.95
+        },
+        "problems": [
+          "topic9_index",
+          "topic9_views",
+          "topic9_storedproc"
+        ]
+      },
+      {
+        "id": "10.1 Manajemen Sistem",
+        "name": "Topik 10: Manajemen Sistem",
+        "topics": "Dates, Backup DB",
+        "allowRecycle": true,
+        "learningObjectives": {
+          "sql_dates": 0.95,
+          "sql_backup": 0.95
+        },
+        "problems": [
+          "topic10_dates",
+          "topic10_backup"
+        ]
+      }
+    ]
+  }
+]

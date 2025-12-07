@@ -1,0 +1,9 @@
+{
+  "id": "topic2_logic",
+  "title": "Operator dan Kondisi: Logika AND",
+  "body": "Seringkali kita perlu menyaring data dengan DUA syarat sekaligus. Operator AND digunakan jika kedua syarat harus terpenuhi.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "2.1 Operator dan Kondisi",
+  "courseName": "Pengantar SQL"
+}

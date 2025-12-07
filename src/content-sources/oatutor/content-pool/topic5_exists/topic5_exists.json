@@ -1,0 +1,9 @@
+{
+  "id": "topic5_exists",
+  "title": "Subquery: EXISTS",
+  "body": "EXISTS menguji keberadaan baris dalam subquery.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "5.1 Subquery",
+  "courseName": "Pengantar SQL"
+}

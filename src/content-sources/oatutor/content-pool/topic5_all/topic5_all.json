@@ -1,0 +1,9 @@
+{
+  "id": "topic5_all",
+  "title": "Subquery: ALL",
+  "body": "ALL berarti kondisi harus benar untuk SEMUA nilai di subquery.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "5.1 Subquery",
+  "courseName": "Pengantar SQL"
+}

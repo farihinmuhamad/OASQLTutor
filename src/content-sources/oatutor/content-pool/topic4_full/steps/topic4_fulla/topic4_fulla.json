@@ -1,0 +1,11 @@
+{
+  "id": "topic4_fulla",
+  "stepAnswer": [
+    "SELECT * FROM pelanggan FULL OUTER JOIN pesanan ON pelanggan.id = pesanan.pelanggan_id"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Gabungan Total",
+  "stepBody": "Tampilkan semua data dari 'pelanggan' dan 'pesanan', baik yang punya pasangan maupun tidak.",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "topic4_innera",
+  "stepAnswer": [
+    "SELECT * FROM pesanan INNER JOIN pelanggan ON pesanan.pelanggan_id = pelanggan.id"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Pesanan dan Pelanggan",
+  "stepBody": "Gabungkan tabel 'pesanan' dan 'pelanggan' dimana 'pesanan.pelanggan_id' sama dengan 'pelanggan.id'.",
+  "answerType": "string",
+  "variabilization": {}
+}

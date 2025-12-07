@@ -1,0 +1,9 @@
+{
+  "id": "topic3_minmax",
+  "title": "Fungsi Agregasi: Nilai Minimum dan Maksimum",
+  "body": "Manajer HRD ingin mengetahui rentang gaji di perusahaan. Ia membutuhkan data gaji terendah dan gaji tertinggi dari tabel 'karyawan'.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "3.1 Fungsi Agregasi",
+  "courseName": "Pengantar SQL"
+}

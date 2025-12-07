@@ -1,0 +1,9 @@
+{
+  "id": "topic8_default",
+  "title": "Constraint: Default",
+  "body": "Memberikan nilai bawaan jika tidak diisi.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "8.1 Constraint",
+  "courseName": "Pengantar SQL"
+}

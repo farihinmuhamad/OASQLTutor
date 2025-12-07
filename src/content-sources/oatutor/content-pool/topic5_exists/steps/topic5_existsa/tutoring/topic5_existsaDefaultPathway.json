@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic5_existsa-h1",
+    "title": "Logika Exists",
+    "text": "Subquery harus menghubungkan ID pelanggan.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic5_existsa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT * FROM pelanggan WHERE EXISTS (SELECT * FROM pesanan WHERE pelanggan.id = pesanan.pelanggan_id)",
+    "type": "solution",
+    "dependencies": [
+      "topic5_existsa-h1"
+    ],
+    "variabilization": {}
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "topic4_union",
+  "title": "Join: Union",
+  "body": "UNION menggabungkan hasil dari dua SELECT statement dan menghapus duplikat.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "4.1 Join dan Relasi",
+  "courseName": "Pengantar SQL"
+}

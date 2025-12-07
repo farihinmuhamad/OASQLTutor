@@ -1,0 +1,9 @@
+{
+  "id": "topic8_unique",
+  "title": "Constraint: Unique",
+  "body": "Memastikan nilai dalam kolom berbeda satu sama lain.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "8.1 Constraint",
+  "courseName": "Pengantar SQL"
+}

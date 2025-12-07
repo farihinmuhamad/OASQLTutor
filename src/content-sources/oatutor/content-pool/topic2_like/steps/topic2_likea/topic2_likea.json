@@ -1,0 +1,14 @@
+{
+  "id": "topic2_likea",
+  "stepAnswer": [
+    "SELECT * FROM pelanggan WHERE nama LIKE 'Muhamad%'",
+    "SELECT * FROM pelanggan WHERE nama LIKE 'Muhamad%';",
+    "select * from pelanggan where nama like 'Muhamad%'",
+    "select * from pelanggan where nama like 'muhamad%'"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Mencari Nama Berawalan Muhamad",
+  "stepBody": "Tuliskan query untuk mencari data pada tabel 'Pelanggan' yang namanya DIAWALI dengan 'Muhamad'.",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic4_joins_introa-h1",
+    "title": "Cross Join",
+    "text": "Cukup pisahkan nama tabel dengan koma atau gunakan CROSS JOIN.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic4_joins_introa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT * FROM pesanan, pelanggan",
+    "type": "solution",
+    "dependencies": [
+      "topic4_joins_introa-h1"
+    ],
+    "variabilization": {}
+  }
+]

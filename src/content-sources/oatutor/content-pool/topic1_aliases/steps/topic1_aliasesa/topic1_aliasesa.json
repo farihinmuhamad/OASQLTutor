@@ -1,0 +1,17 @@
+{
+  "id": "topic1_aliasesa",
+  "stepAnswer": [
+    "SELECT nama_produk AS Barang, harga AS Rupiah FROM produk",
+    "SELECT nama_produk AS 'Barang', harga AS 'Rupiah' FROM produk",
+    "SELECT nama_produk AS \"Barang\", harga AS \"Rupiah\" FROM produk",
+    "select nama_produk as 'barang', harga as 'rupiah' from produk",
+    "SELECT nama_produk AS Barang, harga AS Rupiah FROM produk;",
+    "select nama_produk as Barang, harga as Rupiah from produk",
+    "select nama_produk as barang, harga as rupiah from produk;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Mengubah Nama Kolom",
+  "stepBody": "Tampilkan kolom 'nama_produk' dengan nama baru 'Barang', dan kolom 'harga' dengan nama baru 'Rupiah' dari tabel 'produk'.",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic2_casea-h1",
+    "title": "Struktur CASE",
+    "text": "CASE WHEN [kondisi] THEN [hasil] ELSE [hasil_lain] END",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_casea-h2",
+    "title": "Posisi",
+    "text": "Letakkan CASE di bagian SELECT (sebagai kolom baru).",
+    "type": "hint",
+    "dependencies": [
+      "topic2_casea-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_casea-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT nama_produk, CASE WHEN harga > 1000000 THEN 'Mahal' ELSE 'Murah' END AS Kategori_Harga FROM produk",
+    "type": "solution",
+    "dependencies": [
+      "topic2_casea-h2"
+    ],
+    "variabilization": {}
+  }
+]

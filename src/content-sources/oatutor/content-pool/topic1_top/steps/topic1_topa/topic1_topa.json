@@ -1,0 +1,16 @@
+{
+  "id": "topic1_topa",
+  "stepAnswer": [
+    "SELECT * FROM karyawan LIMIT 5",
+    "SELECT * FROM karyawan LIMIT 5;",
+    "SELECT TOP 5 * FROM karyawan",
+    "SELECT TOP 5 * FROM karyawan;",
+    "select * from karyawan limit 5",
+    "select top 5 * from karyawan"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Mengambil Sampel Data",
+  "stepBody": "Tuliskan query untuk menampilkan seluruh kolom dari tabel 'karyawan', tetapi BATASI hasilnya hanya 5 baris pertama saja.",
+  "answerType": "string",
+  "variabilization": {}
+}

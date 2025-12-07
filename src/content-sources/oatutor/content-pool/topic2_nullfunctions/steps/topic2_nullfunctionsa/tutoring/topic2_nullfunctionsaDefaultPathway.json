@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic2_nullfunctionsa-h1",
+    "title": "Fungsi COALESCE",
+    "text": "COALESCE(kolom, 'Nilai Pengganti') akan mengembalikan nilai pengganti jika kolom bernilai NULL.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_nullfunctionsa-h2",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT nama, COALESCE(telepon, 'Tidak Ada') FROM pelanggan",
+    "type": "solution",
+    "dependencies": [
+      "topic2_nullfunctionsa-h1"
+    ],
+    "variabilization": {}
+  }
+]

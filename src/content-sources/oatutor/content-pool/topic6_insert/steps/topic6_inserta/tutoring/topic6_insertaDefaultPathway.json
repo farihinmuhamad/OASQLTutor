@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic6_inserta-h1",
+    "title": "Format Insert",
+    "text": "INSERT INTO tabel (kolom...) VALUES (nilai...)",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic6_inserta-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: INSERT INTO pelanggan (id, nama, kota) VALUES (101, 'Budi', 'Jakarta')",
+    "type": "solution",
+    "dependencies": [
+      "topic6_inserta-h1"
+    ],
+    "variabilization": {}
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "topic2_operatorsa",
+  "stepAnswer": [
+    "SELECT * FROM produk WHERE harga > 5000000",
+    "SELECT * FROM produk WHERE harga > 5000000;",
+    "select * from produk where harga > 5000000"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Filter Harga Minimum",
+  "stepBody": "Manajer toko ingin mencari produk premium. Tuliskan query untuk menampilkan produk yang harganya LEBIH DARI 5000000 (5 juta).",
+  "answerType": "string",
+  "variabilization": {}
+}

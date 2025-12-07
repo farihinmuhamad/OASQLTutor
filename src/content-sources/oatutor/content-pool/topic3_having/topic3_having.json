@@ -1,0 +1,9 @@
+{
+  "id": "topic3_having",
+  "title": "Fungsi Agregasi: Filter Hasil Agregasi (HAVING)",
+  "body": "WHERE tidak bisa digunakan untuk memfilter hasil agregasi (seperti filter jumlah > 5). Untuk itu, kita harus menggunakan HAVING.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "3.1 Fungsi Agregasi",
+  "courseName": "Pengantar SQL"
+}

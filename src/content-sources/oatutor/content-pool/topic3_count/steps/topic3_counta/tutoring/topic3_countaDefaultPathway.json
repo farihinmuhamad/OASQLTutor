@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic3_counta-h1",
+    "title": "Fungsi COUNT",
+    "text": "Gunakan COUNT(*) untuk menghitung semua baris.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_counta-h2",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT COUNT(*) FROM karyawan",
+    "type": "solution",
+    "dependencies": [
+      "topic3_counta-h1"
+    ],
+    "variabilization": {}
+  }
+]

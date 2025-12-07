@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic2_wildcardsa-h1",
+    "title": "Wildcard Underscore",
+    "text": "Gunakan tiga tanda garis bawah (___) untuk mewakili 3 karakter awal yang misterius.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_wildcardsa-h2",
+    "title": "Gabungan",
+    "text": "Gabungkan dengan 01 di belakangnya: '___01'.",
+    "type": "hint",
+    "dependencies": [
+      "topic2_wildcardsa-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_wildcardsa-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT * FROM produk WHERE id LIKE '___01'",
+    "type": "solution",
+    "dependencies": [
+      "topic2_wildcardsa-h2"
+    ],
+    "variabilization": {}
+  }
+]

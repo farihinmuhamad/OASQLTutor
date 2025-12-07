@@ -1,0 +1,9 @@
+{
+  "id": "topic4_right",
+  "title": "Join: Right Join",
+  "body": "Kebalikan dari Left Join, mengambil semua data tabel kanan.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "4.1 Join dan Relasi",
+  "courseName": "Pengantar SQL"
+}

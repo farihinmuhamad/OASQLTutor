@@ -1,0 +1,11 @@
+{
+  "id": "topic5_anya",
+  "stepAnswer": [
+    "SELECT * FROM produk WHERE harga > ANY (SELECT harga FROM produk WHERE kategori = 'Aksesoris')"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Harga Kompetitif",
+  "stepBody": "Tampilkan produk yang harganya lebih besar dari ANY (salah satu) harga produk kategori 'Aksesoris'.",
+  "answerType": "string",
+  "variabilization": {}
+}

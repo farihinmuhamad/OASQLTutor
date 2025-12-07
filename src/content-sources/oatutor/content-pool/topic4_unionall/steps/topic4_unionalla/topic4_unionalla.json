@@ -1,0 +1,11 @@
+{
+  "id": "topic4_unionalla",
+  "stepAnswer": [
+    "SELECT kota FROM pelanggan UNION ALL SELECT kota FROM supplier"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Semua Kota",
+  "stepBody": "Gabungkan daftar 'kota' dari 'pelanggan' dan 'supplier', biarkan jika ada nama kota yang muncul ganda.",
+  "answerType": "string",
+  "variabilization": {}
+}

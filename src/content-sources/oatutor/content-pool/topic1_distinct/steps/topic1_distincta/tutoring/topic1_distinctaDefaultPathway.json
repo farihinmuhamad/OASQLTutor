@@ -1,0 +1,37 @@
+[
+  {
+    "id": "topic1_distincta-h1",
+    "title": "Masalah Data Ganda",
+    "text": "Jika Anda hanya menggunakan SELECT biasa, kota 'Jakarta' mungkin muncul 100 kali jika ada 100 pelanggan di sana. Kita perlu kata kunci khusus untuk membuatnya unik.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_distincta-h2",
+    "title": "Keyword DISTINCT",
+    "text": "Gunakan kata kunci DISTINCT tepat setelah kata SELECT.",
+    "type": "hint",
+    "dependencies": ["topic1_distincta-h1"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_distincta-scaffold",
+    "title": "Lengkapi Query",
+    "text": "Lengkapi bagian kosong: SELECT ... kota FROM pelanggan",
+    "hintAnswer": ["DISTINCT"],
+    "problemType": "TextBox",
+    "answerType": "string",
+    "type": "scaffold",
+    "dependencies": ["topic1_distincta-h2"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_distincta-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT DISTINCT kota FROM pelanggan",
+    "type": "solution",
+    "dependencies": ["topic1_distincta-scaffold"],
+    "variabilization": {}
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "topic2_nullfunctionsa",
+  "stepAnswer": [
+    "SELECT nama, COALESCE(telepon, 'Tidak Ada') FROM pelanggan",
+    "select nama, coalesce(telepon, 'tidak ada') from pelanggan",
+    "SELECT nama, COALESCE(telepon, 'Tidak Ada') FROM pelanggan;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Ganti Data Kosong",
+  "stepBody": "Tampilkan nama dan telepon dari tabel 'Pelanggan'. Jika telepon kosong (NULL), tampilkan tulisan 'Tidak Ada'. Gunakan fungsi COALESCE.",
+  "answerType": "string",
+  "variabilization": {}
+}

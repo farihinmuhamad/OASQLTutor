@@ -1,0 +1,11 @@
+{
+  "id": "topic8_autoincrementa",
+  "stepAnswer": [
+    "CREATE TABLE log (id INT AUTO_INCREMENT)"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "ID Otomatis",
+  "stepBody": "Buat tabel 'log' dengan 'id' (INT) yang AUTO_INCREMENT (Sintaks MySQL).",
+  "answerType": "string",
+  "variabilization": {}
+}

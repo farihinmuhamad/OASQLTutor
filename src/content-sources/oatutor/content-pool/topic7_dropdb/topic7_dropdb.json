@@ -1,0 +1,9 @@
+{
+  "id": "topic7_dropdb",
+  "title": "DDL: Drop Database",
+  "body": "Menghapus database beserta seluruh isinya.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "7.1 DDL",
+  "courseName": "Pengantar SQL"
+}

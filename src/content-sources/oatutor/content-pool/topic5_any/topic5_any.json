@@ -1,0 +1,9 @@
+{
+  "id": "topic5_any",
+  "title": "Subquery: ANY",
+  "body": "ANY membandingkan nilai dengan sekumpulan nilai dari subquery. Benar jika SALAH SATU memenuhi.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "5.1 Subquery",
+  "courseName": "Pengantar SQL"
+}

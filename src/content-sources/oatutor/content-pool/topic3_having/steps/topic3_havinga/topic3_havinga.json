@@ -1,0 +1,12 @@
+{
+  "id": "topic3_havinga",
+  "stepAnswer": [
+    "SELECT divisi, COUNT(*) FROM karyawan GROUP BY divisi HAVING COUNT(*) > 5",
+    "SELECT divisi, COUNT(*) FROM karyawan GROUP BY divisi HAVING COUNT(*) > 5;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Divisi Besar",
+  "stepBody": "Tampilkan nama 'divisi' dan jumlah karyawan, tapi HANYA untuk divisi yang memiliki lebih dari 5 karyawan.",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,9 @@
+{
+  "id": "topic8_notnull",
+  "title": "Constraint: Not Null",
+  "body": "Memastikan kolom tidak boleh kosong.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "8.1 Constraint",
+  "courseName": "Pengantar SQL"
+}

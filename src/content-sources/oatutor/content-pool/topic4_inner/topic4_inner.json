@@ -1,0 +1,9 @@
+{
+  "id": "topic4_inner",
+  "title": "Join: Inner Join",
+  "body": "INNER JOIN hanya mengambil data yang memiliki pasangan di kedua tabel.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "4.1 Join dan Relasi",
+  "courseName": "Pengantar SQL"
+}

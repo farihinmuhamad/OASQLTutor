@@ -1,0 +1,11 @@
+{
+  "id": "topic10_backupa",
+  "stepAnswer": [
+    "BACKUP DATABASE toko TO DISK = 'D:\\backup.bak'"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Backup Data",
+  "stepBody": "Lakukan BACKUP DATABASE 'toko' ke disk 'D:\backup.bak'.",
+  "answerType": "string",
+  "variabilization": {}
+}

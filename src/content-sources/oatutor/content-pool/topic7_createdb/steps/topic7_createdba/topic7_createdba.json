@@ -1,0 +1,11 @@
+{
+  "id": "topic7_createdba",
+  "stepAnswer": [
+    "CREATE DATABASE toko_online"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Database Toko",
+  "stepBody": "Buat database baru dengan nama 'toko_online'.",
+  "answerType": "string",
+  "variabilization": {}
+}

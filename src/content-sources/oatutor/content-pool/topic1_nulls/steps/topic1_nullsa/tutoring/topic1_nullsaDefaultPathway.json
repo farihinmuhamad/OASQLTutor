@@ -1,0 +1,37 @@
+[
+  {
+    "id": "topic1_nullsa-h1",
+    "title": "Konsep NULL",
+    "text": "NULL artinya 'tidak diketahui'. Karena tidak diketahui, kita tidak bisa membandingkannya menggunakan tanda sama dengan (=).",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_nullsa-h2",
+    "title": "Operator IS",
+    "text": "Untuk mengecek apakah sebuah kolom bernilai NULL, gunakan operator 'IS NULL' (bukan '= NULL').",
+    "type": "hint",
+    "dependencies": ["topic1_nullsa-h1"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_nullsa-scaffold",
+    "title": "Lengkapi Query",
+    "text": "Lengkapi: SELECT * FROM pelanggan WHERE email ... NULL",
+    "hintAnswer": ["IS"],
+    "problemType": "TextBox",
+    "answerType": "string",
+    "type": "scaffold",
+    "dependencies": ["topic1_nullsa-h2"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_nullsa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT * FROM pelanggan WHERE email IS NULL",
+    "type": "solution",
+    "dependencies": ["topic1_nullsa-scaffold"],
+    "variabilization": {}
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "id": "topic4_joins_introa",
+  "stepAnswer": [
+    "SELECT * FROM pesanan, pelanggan",
+    "SELECT * FROM pesanan CROSS JOIN pelanggan"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Konsep Relasi",
+  "stepBody": "Tuliskan query sederhana untuk mengambil semua kolom dari tabel 'pesanan' dan 'pelanggan' tanpa kondisi join (Cartesian Product/Cross Join).",
+  "answerType": "string",
+  "variabilization": {}
+}

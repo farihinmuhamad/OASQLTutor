@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic3_avga-h1",
+    "title": "Fungsi AVG",
+    "text": "Gunakan AVG(nama_kolom).",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_avga-h2",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT AVG(gaji) FROM karyawan",
+    "type": "solution",
+    "dependencies": [
+      "topic3_avga-h1"
+    ],
+    "variabilization": {}
+  }
+]

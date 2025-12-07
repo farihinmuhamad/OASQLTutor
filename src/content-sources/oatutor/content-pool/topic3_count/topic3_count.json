@@ -1,0 +1,9 @@
+{
+  "id": "topic3_count",
+  "title": "Fungsi Agregasi: Menghitung Baris (COUNT)",
+  "body": "Fungsi COUNT digunakan untuk menghitung jumlah baris data yang ada, bukan menjumlahkan nilainya.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "3.1 Fungsi Agregasi",
+  "courseName": "Pengantar SQL"
+}

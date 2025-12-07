@@ -1,0 +1,9 @@
+{
+  "id": "topic1_aliases",
+  "title": "Query Dasar: Menggunakan Alias (AS)",
+  "body": "Terkadang nama kolom di database terlalu teknis atau sulit dimengerti oleh pengguna awam. Kita bisa mengubah tampilan dari nama kolom tersebut (untuk kepentingan menampilkan hasil query) tanpa mengubah struktur asli tabelnya.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "1.1 Query Dasar",
+  "courseName": "Pengantar SQL"
+}

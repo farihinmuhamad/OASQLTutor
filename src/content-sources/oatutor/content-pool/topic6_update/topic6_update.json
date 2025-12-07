@@ -1,0 +1,9 @@
+{
+  "id": "topic6_update",
+  "title": "DML: Update Data",
+  "body": "UPDATE mengubah data yang sudah ada.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "6.1 DML",
+  "courseName": "Pengantar SQL"
+}

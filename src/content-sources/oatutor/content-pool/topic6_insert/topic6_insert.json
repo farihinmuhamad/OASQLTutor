@@ -1,0 +1,9 @@
+{
+  "id": "topic6_insert",
+  "title": "DML: Insert Data",
+  "body": "INSERT INTO digunakan untuk menambah data baru.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "6.1 DML",
+  "courseName": "Pengantar SQL"
+}

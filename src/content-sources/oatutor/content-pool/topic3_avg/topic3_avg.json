@@ -1,0 +1,9 @@
+{
+  "id": "topic3_avg",
+  "title": "Fungsi Agregasi: Rata-rata (AVG)",
+  "body": "Fungsi AVG menghitung nilai rata-rata dari sebuah kolom numerik.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "3.1 Fungsi Agregasi",
+  "courseName": "Pengantar SQL"
+}

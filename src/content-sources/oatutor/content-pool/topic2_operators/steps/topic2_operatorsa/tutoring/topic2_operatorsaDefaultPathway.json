@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic2_operatorsa-h1",
+    "title": "Operator Lebih Besar",
+    "text": "Gunakan simbol matematika '>' untuk kondisi 'lebih dari'.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_operatorsa-h2",
+    "title": "Angka Tanpa Format",
+    "text": "Tulis angka 5000000 tanpa titik atau koma pemisah ribuan.",
+    "type": "hint",
+    "dependencies": [
+      "topic2_operatorsa-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_operatorsa-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT * FROM produk WHERE harga > 5000000",
+    "type": "solution",
+    "dependencies": [
+      "topic2_operatorsa-h2"
+    ],
+    "variabilization": {}
+  }
+]

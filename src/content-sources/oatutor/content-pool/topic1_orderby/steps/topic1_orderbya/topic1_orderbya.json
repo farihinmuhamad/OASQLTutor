@@ -1,0 +1,14 @@
+{
+  "id": "topic1_orderbya",
+  "stepAnswer": [
+    "SELECT * FROM produk ORDER BY harga DESC",
+    "SELECT * FROM produk ORDER BY harga DESC;",
+    "select * from produk order by harga desc",
+    "select * from produk order by harga desc;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Urutan Harga Tertinggi",
+  "stepBody": "Tuliskan query untuk menampilkan semua data produk, diurutkan berdasarkan 'harga' dari yang termahal ke yang termurah.",
+  "answerType": "string",
+  "variabilization": {}
+}

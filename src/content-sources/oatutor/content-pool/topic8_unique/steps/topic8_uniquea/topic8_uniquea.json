@@ -1,0 +1,11 @@
+{
+  "id": "topic8_uniquea",
+  "stepAnswer": [
+    "CREATE TABLE user (email VARCHAR(50) UNIQUE)"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Email Unik",
+  "stepBody": "Buat tabel 'user' dengan kolom 'email' (VARCHAR) yang harus UNIQUE.",
+  "answerType": "string",
+  "variabilization": {}
+}

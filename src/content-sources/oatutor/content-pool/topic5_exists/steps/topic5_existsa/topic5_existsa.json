@@ -1,0 +1,11 @@
+{
+  "id": "topic5_existsa",
+  "stepAnswer": [
+    "SELECT * FROM pelanggan WHERE EXISTS (SELECT * FROM pesanan WHERE pelanggan.id = pesanan.pelanggan_id)"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Pelanggan Aktif",
+  "stepBody": "Tampilkan pelanggan yang SUDAH pernah melakukan pemesanan (ada di tabel pesanan). Gunakan WHERE EXISTS.",
+  "answerType": "string",
+  "variabilization": {}
+}

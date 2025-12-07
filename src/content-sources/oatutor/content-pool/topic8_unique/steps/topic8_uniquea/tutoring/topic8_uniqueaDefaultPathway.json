@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic8_uniquea-h1",
+    "title": "Unique",
+    "text": "Gunakan kata kunci UNIQUE.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic8_uniquea-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE TABLE user (email VARCHAR(50) UNIQUE)",
+    "type": "solution",
+    "dependencies": [
+      "topic8_uniquea-h1"
+    ],
+    "variabilization": {}
+  }
+]

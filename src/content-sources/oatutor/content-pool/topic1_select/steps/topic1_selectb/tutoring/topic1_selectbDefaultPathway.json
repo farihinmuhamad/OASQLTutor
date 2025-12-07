@@ -1,0 +1,37 @@
+[
+  {
+    "id": "topic1_selectb-h1",
+    "title": "Hindari Bintang",
+    "text": "Jangan gunakan tanda (*). Anda harus menyebutkan nama kolom secara spesifik.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_selectb-h2",
+    "title": "Pemisah Kolom",
+    "text": "Pisahkan antar nama kolom menggunakan tanda koma (,).",
+    "type": "hint",
+    "dependencies": ["topic1_selectb-h1"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_selectb-scaffold",
+    "title": "Lengkapi Kode",
+    "text": "Lengkapi: SELECT nama_produk, ... FROM produk",
+    "hintAnswer": ["harga"],
+    "problemType": "TextBox",
+    "answerType": "string",
+    "type": "scaffold",
+    "dependencies": ["topic1_selectb-h2"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_selectb-sol",
+    "title": "Solusi",
+    "text": "Jawaban: SELECT nama_produk, harga FROM produk",
+    "type": "solution",
+    "dependencies": ["topic1_selectb-scaffold"],
+    "variabilization": {}
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic4_uniona-h1",
+    "title": "Sintaks Union",
+    "text": "SELECT ... UNION SELECT ...",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic4_uniona-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT kota FROM pelanggan UNION SELECT kota FROM supplier",
+    "type": "solution",
+    "dependencies": [
+      "topic4_uniona-h1"
+    ],
+    "variabilization": {}
+  }
+]

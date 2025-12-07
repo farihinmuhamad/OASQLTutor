@@ -1,0 +1,9 @@
+{
+  "id": "topic7_createdb",
+  "title": "DDL: Create Database",
+  "body": "Perintah utama untuk membuat wadah database baru.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "7.1 DDL",
+  "courseName": "Pengantar SQL"
+}

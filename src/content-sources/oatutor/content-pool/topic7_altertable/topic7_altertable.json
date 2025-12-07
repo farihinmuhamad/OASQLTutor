@@ -1,0 +1,9 @@
+{
+  "id": "topic7_altertable",
+  "title": "DDL: Alter Table",
+  "body": "Mengubah struktur tabel (tambah/hapus kolom).",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "7.1 DDL",
+  "courseName": "Pengantar SQL"
+}

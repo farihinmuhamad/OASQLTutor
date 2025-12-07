@@ -1,0 +1,9 @@
+{
+  "id": "topic4_unionall",
+  "title": "Join: Union All",
+  "body": "UNION ALL menggabungkan hasil dua SELECT tanpa menghapus duplikat.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "4.1 Join dan Relasi",
+  "courseName": "Pengantar SQL"
+}

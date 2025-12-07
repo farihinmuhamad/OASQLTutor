@@ -1,0 +1,13 @@
+{
+  "id": "topic2_betweena",
+  "stepAnswer": [
+    "SELECT * FROM produk WHERE harga BETWEEN 10000 AND 5000",
+    "select * from produk where harga between 10000 and 5000",
+    "SELECT * FROM produk WHERE harga BETWEEN 10000 AND 5000;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Rentang Harga",
+  "stepBody": "Cari seluruh data pada tabel 'Produk' yang harganya berada diantara 1000 sampai 5000.",
+  "answerType": "string",
+  "variabilization": {}
+}

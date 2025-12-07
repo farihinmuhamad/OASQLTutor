@@ -1,0 +1,9 @@
+{
+  "id": "topic7_droptable",
+  "title": "DDL: Drop Table",
+  "body": "Menghapus tabel dari database.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "7.1 DDL",
+  "courseName": "Pengantar SQL"
+}

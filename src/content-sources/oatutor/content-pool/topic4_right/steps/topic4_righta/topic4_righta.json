@@ -1,0 +1,11 @@
+{
+  "id": "topic4_righta",
+  "stepAnswer": [
+    "SELECT * FROM pelanggan RIGHT JOIN pesanan ON pelanggan.id = pesanan.pelanggan_id"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Semua Pesanan",
+  "stepBody": "Gunakan RIGHT JOIN untuk menampilkan semua data 'pesanan' dan data 'pelanggan' yang cocok.",
+  "answerType": "string",
+  "variabilization": {}
+}

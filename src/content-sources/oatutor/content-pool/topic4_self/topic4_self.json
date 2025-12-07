@@ -1,0 +1,9 @@
+{
+  "id": "topic4_self",
+  "title": "Join: Self Join",
+  "body": "Self Join adalah join tabel ke dirinya sendiri.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "4.1 Join dan Relasi",
+  "courseName": "Pengantar SQL"
+}

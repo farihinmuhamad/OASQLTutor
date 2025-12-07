@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic7_createtablea-h1",
+    "title": "Definisi Kolom",
+    "text": "Gunakan kurung () untuk membungkus definisi kolom.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic7_createtablea-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE TABLE barang (id INT, nama VARCHAR(50))",
+    "type": "solution",
+    "dependencies": [
+      "topic7_createtablea-h1"
+    ],
+    "variabilization": {}
+  }
+]

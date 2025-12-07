@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic3_havinga-h1",
+    "title": "Perbedaan WHERE vs HAVING",
+    "text": "WHERE memfilter baris sebelum dikelompokkan. HAVING memfilter hasil setelah dikelompokkan (setelah GROUP BY).",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_havinga-h2",
+    "title": "Kondisi",
+    "text": "Gunakan: HAVING COUNT(*) > 5",
+    "type": "hint",
+    "dependencies": [
+      "topic3_havinga-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_havinga-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT divisi, COUNT(*) FROM karyawan GROUP BY divisi HAVING COUNT(*) > 5",
+    "type": "solution",
+    "dependencies": [
+      "topic3_havinga-h2"
+    ],
+    "variabilization": {}
+  }
+]

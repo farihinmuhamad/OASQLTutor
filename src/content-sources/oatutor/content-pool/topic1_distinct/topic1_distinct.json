@@ -1,0 +1,9 @@
+{
+  "id": "topic1_distinct",
+  "title": "Query Dasar: Mengeliminasi Duplikasi (DISTINCT)",
+  "body": "Tim pemasaran memiliki tabel 'pelanggan' yang berisi data pembeli. Tabel ini memiliki kolom: id, nama, kota, dan email. Beberapa pelanggan berasal dari kota yang sama.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "1.1 Query Dasar",
+  "courseName": "Pengantar SQL"
+}

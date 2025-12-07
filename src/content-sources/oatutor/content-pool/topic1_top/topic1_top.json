@@ -1,0 +1,9 @@
+{
+  "id": "topic1_top",
+  "title": "Query Dasar: Membatasi Jumlah Baris (LIMIT/TOP)",
+  "body": "Database perusahaan memiliki tabel 'karyawan' dengan ribuan baris data. Menampilkan semua data sekaligus akan memperlambat sistem.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "1.1 Query Dasar",
+  "courseName": "Pengantar SQL"
+}

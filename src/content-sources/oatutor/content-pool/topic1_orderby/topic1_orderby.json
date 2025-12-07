@@ -1,0 +1,9 @@
+{
+  "id": "topic1_orderby",
+  "title": "Query Dasar: Mengurutkan Data (ORDER BY)",
+  "body": "Daftar produk saat ini tampil acak. Manajer ingin melihat laporan inventaris yang lebih rapi berdasarkan harga barang.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "1.1 Query Dasar",
+  "courseName": "Pengantar SQL"
+}

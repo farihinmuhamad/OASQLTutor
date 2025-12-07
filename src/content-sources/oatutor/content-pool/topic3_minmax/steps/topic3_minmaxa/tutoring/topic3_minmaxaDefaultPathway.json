@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic3_minmaxa-h1",
+    "title": "Fungsi MIN & MAX",
+    "text": "Gunakan fungsi MIN(nama_kolom) untuk mencari nilai terkecil dan MAX(nama_kolom) untuk nilai terbesar.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_minmaxa-h2",
+    "title": "Pemisah",
+    "text": "Pisahkan kedua fungsi dengan tanda koma (,).",
+    "type": "hint",
+    "dependencies": [
+      "topic3_minmaxa-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_minmaxa-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT MIN(gaji) AS GajiTerendah, MAX(gaji) AS GajiTertinggi FROM karyawan",
+    "type": "solution",
+    "dependencies": [
+      "topic3_minmaxa-h2"
+    ],
+    "variabilization": {}
+  }
+]

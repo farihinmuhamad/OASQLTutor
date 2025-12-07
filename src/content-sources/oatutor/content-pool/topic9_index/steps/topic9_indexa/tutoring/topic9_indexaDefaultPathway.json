@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic9_indexa-h1",
+    "title": "Create Index",
+    "text": "CREATE INDEX nama_index ON tabel (kolom).",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic9_indexa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE INDEX idx_nama ON karyawan (nama)",
+    "type": "solution",
+    "dependencies": [
+      "topic9_indexa-h1"
+    ],
+    "variabilization": {}
+  }
+]

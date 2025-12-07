@@ -1,0 +1,14 @@
+{
+  "id": "topic1_distincta",
+  "stepAnswer": [
+    "SELECT DISTINCT kota FROM pelanggan",
+    "SELECT DISTINCT kota FROM pelanggan;",
+    "select distinct kota from pelanggan",
+    "select distinct kota from pelanggan;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Daftar Kota Unik",
+  "stepBody": "Tuliskan query untuk menampilkan daftar 'kota' asal pelanggan. Pastikan tidak ada nama kota yang muncul dua kali (hilangkan duplikasi).",
+  "answerType": "string",
+  "variabilization": {}
+}

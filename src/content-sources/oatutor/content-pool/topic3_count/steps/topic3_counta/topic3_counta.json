@@ -1,0 +1,13 @@
+{
+  "id": "topic3_counta",
+  "stepAnswer": [
+    "SELECT COUNT(*) FROM karyawan",
+    "SELECT COUNT(*) FROM karyawan;",
+    "SELECT COUNT(id) FROM karyawan"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Total Karyawan",
+  "stepBody": "Hitung berapa banyak total karyawan yang terdaftar di tabel 'karyawan'.",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic2_betweena-h1",
+    "title": "Sintaks BETWEEN",
+    "text": "Format: WHERE kolom BETWEEN NilaiBawah AND NilaiAtas",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_betweena-h2",
+    "title": "Logika",
+    "text": "Ini sama dengan menulis: harga >= 1000 AND harga <= 5000",
+    "type": "hint",
+    "dependencies": [
+      "topic2_betweena-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_betweena-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT * FROM produk WHERE harga BETWEEN 1000 AND 5000",
+    "type": "solution",
+    "dependencies": [
+      "topic2_betweena-h2"
+    ],
+    "variabilization": {}
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "topic4_full",
+  "title": "Join: Full Outer Join",
+  "body": "Mengambil semua data jika ada kecocokan di salah satu tabel (Kiri atau Kanan).",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "4.1 Join dan Relasi",
+  "courseName": "Pengantar SQL"
+}

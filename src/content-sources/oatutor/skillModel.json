@@ -1,0 +1,65 @@
+{
+  "topic1_selecta": ["sql_select_basic"],
+  "topic1_selectb": ["sql_select_basic"],
+  "topic1_distincta": ["sql_select_distinct"],
+  "topic1_topa": ["sql_select_top"],
+  "topic1_orderbya": ["sql_order_by"],
+  "topic1_aliasesa": ["sql_aliases"],
+  "topic1_commentsa": ["sql_select_comments"],
+  "topic1_nullsa": ["sql_null_values"],
+
+  "topic2_wherea": ["sql_where"],
+  "topic2_operatorsa": ["sql_logic_operators"],
+  "topic2_logica": ["sql_logic_operators"],
+  "topic2_likea": ["sql_like_wildcards"],
+  "topic2_wildcardsa": ["sql_like_wildcards"],
+  "topic2_ina": ["sql_in_between"],
+  "topic2_betweena": ["sql_in_between"],
+  "topic2_casea": ["sql_case"],
+  "topic2_nullfunctionsa": ["sql_null_functions"],
+
+  "topic3_minmaxa": ["sql_aggr_basic"],
+  "topic3_counta": ["sql_count_sum_avg"],
+  "topic3_suma": ["sql_count_sum_avg"],
+  "topic3_avga": ["sql_count_sum_avg"],
+  "topic3_groupbya": ["sql_groupby"],
+  "topic3_havinga": ["sql_having"],
+
+  "topic4_joins_introa": ["sql_join_inner"],
+  "topic4_innera": ["sql_join_inner"],
+  "topic4_lefta": ["sql_join_outer"],
+  "topic4_righta": ["sql_join_outer"],
+  "topic4_fulla": ["sql_join_outer"],
+  "topic4_selfa": ["sql_self_join"],
+  "topic4_uniona": ["sql_union"],
+  "topic4_unionalla": ["sql_union"],
+
+  "topic5_existsa": ["sql_subquery_exists"],
+  "topic5_anya": ["sql_subquery_anyall"],
+  "topic5_alla": ["sql_subquery_anyall"],
+
+  "topic6_inserta": ["sql_insert"],
+  "topic6_updatea": ["sql_update"],
+  "topic6_deletea": ["sql_delete"],
+
+  "topic7_createdba": ["sql_create_drop"],
+  "topic7_dropdba": ["sql_create_drop"],
+  "topic7_createtablea": ["sql_create_drop"],
+  "topic7_droptablea": ["sql_create_drop"],
+  "topic7_altertablea": ["sql_alter"],
+
+  "topic8_notnulla": ["sql_constraint_null"],
+  "topic8_uniquea": ["sql_constraint_key"],
+  "topic8_primarykeya": ["sql_constraint_key"],
+  "topic8_foreignkeya": ["sql_constraint_key"],
+  "topic8_checka": ["sql_constraint_check"],
+  "topic8_defaulta": ["sql_constraint_check"],
+  "topic8_autoincrementa": ["sql_constraint_key"],
+
+  "topic9_indexa": ["sql_index"],
+  "topic9_viewsa": ["sql_views"],
+  "topic9_storedproca": ["sql_stored_proc"],
+
+  "topic10_datesa": ["sql_dates"],
+  "topic10_backupa": ["sql_backup"]
+}

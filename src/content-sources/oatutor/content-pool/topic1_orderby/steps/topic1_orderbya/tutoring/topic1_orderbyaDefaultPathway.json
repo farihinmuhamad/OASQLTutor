@@ -1,0 +1,37 @@
+[
+  {
+    "id": "topic1_orderbya-h1",
+    "title": "Keyword Pengurutan",
+    "text": "Untuk mengurutkan hasil, gunakan perintah ORDER BY diikuti nama kolom yang ingin diurutkan.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_orderbya-h2",
+    "title": "Arah Urutan (Ascending/Descending)",
+    "text": "Secara default, SQL mengurutkan dari kecil ke besar (ASC). Karena kita ingin dari Mahal (Besar) ke Murah (Kecil), kita harus menambahkan keyword DESC di akhir.",
+    "type": "hint",
+    "dependencies": ["topic1_orderbya-h1"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_orderbya-scaffold",
+    "title": "Lengkapi Query",
+    "text": "Lengkapi: SELECT * FROM produk ORDER BY ... ...",
+    "hintAnswer": ["harga DESC"],
+    "problemType": "TextBox",
+    "answerType": "string",
+    "type": "scaffold",
+    "dependencies": ["topic1_orderbya-h2"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_orderbya-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT * FROM produk ORDER BY harga DESC",
+    "type": "solution",
+    "dependencies": ["topic1_orderbya-scaffold"],
+    "variabilization": {}
+  }
+]

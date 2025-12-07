@@ -1,0 +1,9 @@
+{
+  "id": "topic2_wildcards",
+  "title": "Operator dan Kondisi: Wildcards Lanjutan",
+  "body": "Wildcard underscore (_) mewakili tepat satu karakter, sedangkan persen (%) mewakili nol atau banyak karakter.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "2.1 Operator dan Kondisi",
+  "courseName": "Pengantar SQL"
+}

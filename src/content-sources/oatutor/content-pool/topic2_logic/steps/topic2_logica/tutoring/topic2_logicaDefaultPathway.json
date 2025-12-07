@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic2_logica-h1",
+    "title": "Dua Kondisi",
+    "text": "Gunakan kata kunci AND di antara dua kondisi.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_logica-h2",
+    "title": "Kondisi String dan Angka",
+    "text": "Ingat: 'Elektronik' pakai kutip, angka 10 tidak pakai kutip.",
+    "type": "hint",
+    "dependencies": [
+      "topic2_logica-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_logica-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT * FROM produk WHERE kategori = 'Elektronik' AND stok < 10",
+    "type": "solution",
+    "dependencies": [
+      "topic2_logica-h2"
+    ],
+    "variabilization": {}
+  }
+]

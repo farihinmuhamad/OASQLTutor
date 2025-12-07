@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic8_notnulla-h1",
+    "title": "Posisi Constraint",
+    "text": "Letakkan NOT NULL setelah tipe data.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic8_notnulla-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE TABLE user (username VARCHAR(50) NOT NULL)",
+    "type": "solution",
+    "dependencies": [
+      "topic8_notnulla-h1"
+    ],
+    "variabilization": {}
+  }
+]

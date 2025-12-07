@@ -1,0 +1,13 @@
+{
+  "id": "topic2_casea",
+  "stepAnswer": [
+    "SELECT nama_produk, CASE WHEN harga > 1000000 THEN 'Mahal' ELSE 'Murah' END AS Kategori_Harga FROM produk",
+    "select nama_produk, case when harga > 1000000 then 'mahal' else 'murah' end as kategori_harga from produk",
+    "SELECT nama_produk, CASE WHEN harga > 1000000 THEN 'Mahal' ELSE 'Murah' END AS Kategori_Harga FROM produk;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Label Harga",
+  "stepBody": "Tampilkan nama_produk dan label harga. Jika harga > 1000000 beri label 'Mahal', selain itu 'Murah'. Beri alias kolom baru sebagai 'Kategori_Harga'.",
+  "answerType": "string",
+  "variabilization": {}
+}

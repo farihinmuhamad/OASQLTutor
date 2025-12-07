@@ -1,0 +1,9 @@
+{
+  "id": "topic8_primarykey",
+  "title": "Constraint: Primary Key",
+  "body": "Kombinasi Not Null dan Unique, menjadi identitas baris.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "8.1 Constraint",
+  "courseName": "Pengantar SQL"
+}

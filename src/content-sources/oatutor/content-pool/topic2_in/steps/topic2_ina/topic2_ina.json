@@ -1,0 +1,12 @@
+{
+  "id": "topic2_ina",
+  "stepAnswer": [
+    "SELECT * FROM pelanggan WHERE kota IN ('Jakarta', 'Bandung', 'Surabaya')",
+    "SELECT * FROM pelanggan WHERE kota IN ('Jakarta', 'Bandung', 'Surabaya');"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Memilih Banyak Kota",
+  "stepBody": "Tampilkan pelanggan yang tinggal di 'Jakarta', 'Bandung', atau 'Surabaya'.",
+  "answerType": "string",
+  "variabilization": {}
+}

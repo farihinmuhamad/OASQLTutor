@@ -1,0 +1,37 @@
+[
+  {
+    "id": "topic1_topa-h1",
+    "title": "Perbedaan Sintaks",
+    "text": "Setiap database memiliki cara berbeda. Di MySQL/PostgreSQL kita menggunakan 'LIMIT', sedangkan di SQL Server menggunakan 'TOP'. Kita akan mencoba menggunakan LIMIT.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_topa-h2",
+    "title": "Posisi LIMIT",
+    "text": "Kata kunci LIMIT diletakkan di bagian paling akhir dari query SQL.",
+    "type": "hint",
+    "dependencies": ["topic1_topa-h1"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_topa-scaffold",
+    "title": "Lengkapi Query",
+    "text": "Lengkapi: SELECT * FROM karyawan ... 5",
+    "hintAnswer": ["LIMIT"],
+    "problemType": "TextBox",
+    "answerType": "string",
+    "type": "scaffold",
+    "dependencies": ["topic1_topa-h2"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_topa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT * FROM karyawan LIMIT 5",
+    "type": "solution",
+    "dependencies": ["topic1_topa-scaffold"],
+    "variabilization": {}
+  }
+]

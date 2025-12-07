@@ -1,0 +1,11 @@
+{
+  "id": "topic4_lefta",
+  "stepAnswer": [
+    "SELECT * FROM pelanggan LEFT JOIN pesanan ON pelanggan.id = pesanan.pelanggan_id"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Semua Pelanggan",
+  "stepBody": "Tampilkan semua 'pelanggan', termasuk yang belum pernah memesan. Gabungkan dengan tabel 'pesanan'.",
+  "answerType": "string",
+  "variabilization": {}
+}

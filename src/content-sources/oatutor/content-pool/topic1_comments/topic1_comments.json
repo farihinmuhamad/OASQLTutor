@@ -1,0 +1,9 @@
+{
+  "id": "topic1_comments",
+  "title": "Query Dasar: Memberikan Komentar",
+  "body": "Kode yang baik adalah kode yang mudah dipaca. SQL mengizinkan kita menambahkan teks komentar yang akan diabaikan oleh sistem tetapi berguna sebagai catatan.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "1.1 Query Dasar",
+  "courseName": "Pengantar SQL"
+}

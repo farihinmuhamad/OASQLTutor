@@ -1,0 +1,9 @@
+{
+  "id": "topic2_where",
+  "title": "Filter Kondisi: WHERE Clause",
+  "body": "Seringkali kita tidak membutuhkan seluruh data/record yang ada pada tabel, biasanya hanya baris-baris tertentu yang memenuhi kriteria spesifiklah yang diinginkan. Di sinilah klausa WHERE digunakan.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "2.1 Operator dan Kondisi",
+  "courseName": "Pengantar SQL"
+}

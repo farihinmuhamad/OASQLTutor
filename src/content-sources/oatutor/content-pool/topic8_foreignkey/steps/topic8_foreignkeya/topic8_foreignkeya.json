@@ -1,0 +1,11 @@
+{
+  "id": "topic8_foreignkeya",
+  "stepAnswer": [
+    "CREATE TABLE pesanan (user_id INT, FOREIGN KEY (user_id) REFERENCES user(id))"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Relasi Pesanan",
+  "stepBody": "Buat tabel 'pesanan' dengan kolom 'user_id' (INT) yang merujuk (REFERENCES) ke tabel user(id).",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic2_ina-h1",
+    "title": "Sintaks IN",
+    "text": "Gunakan format: WHERE kolom IN ('Nilai1', 'Nilai2', ...)",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_ina-h2",
+    "title": "Tanda Kutip",
+    "text": "Setiap nama kota harus diapit tanda kutip tunggal.",
+    "type": "hint",
+    "dependencies": [
+      "topic2_ina-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_ina-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT * FROM pelanggan WHERE kota IN ('Jakarta', 'Bandung', 'Surabaya')",
+    "type": "solution",
+    "dependencies": [
+      "topic2_ina-h2"
+    ],
+    "variabilization": {}
+  }
+]

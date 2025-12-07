@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic3_groupbya-h1",
+    "title": "Logika Grouping",
+    "text": "Karena kita ingin melihat data 'per divisi', maka kolom 'divisi' harus muncul di SELECT dan di GROUP BY.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_groupbya-h2",
+    "title": "Posisi GROUP BY",
+    "text": "Letakkan GROUP BY divisi di akhir query setelah nama tabel (atau setelah WHERE jika ada).",
+    "type": "hint",
+    "dependencies": [
+      "topic3_groupbya-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_groupbya-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT divisi, COUNT(*) FROM karyawan GROUP BY divisi",
+    "type": "solution",
+    "dependencies": [
+      "topic3_groupbya-h2"
+    ],
+    "variabilization": {}
+  }
+]

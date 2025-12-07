@@ -1,0 +1,11 @@
+{
+  "id": "topic4_selfa",
+  "stepAnswer": [
+    "SELECT A.nama, B.nama FROM karyawan A, karyawan B WHERE A.boss_id = B.id"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Mencari Pasangan",
+  "stepBody": "Tabel 'karyawan' punya kolom 'id' dan 'boss_id'. Tampilkan nama karyawan dan nama bosnya. Gunakan alias 'A' untuk karyawan dan 'B' untuk bos.",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "topic8_notnulla",
+  "stepAnswer": [
+    "CREATE TABLE user (username VARCHAR(50) NOT NULL)"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Wajib Isi",
+  "stepBody": "Buat tabel 'user' dengan kolom 'username' (VARCHAR) yang TIDAK BOLEH NULL.",
+  "answerType": "string",
+  "variabilization": {}
+}

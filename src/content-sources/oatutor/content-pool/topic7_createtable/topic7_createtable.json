@@ -1,0 +1,9 @@
+{
+  "id": "topic7_createtable",
+  "title": "DDL: Create Table",
+  "body": "Membuat tabel baru beserta definisi kolomnya.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "7.1 DDL",
+  "courseName": "Pengantar SQL"
+}

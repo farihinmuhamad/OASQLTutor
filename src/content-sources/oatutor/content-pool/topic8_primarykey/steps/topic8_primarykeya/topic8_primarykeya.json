@@ -1,0 +1,11 @@
+{
+  "id": "topic8_primarykeya",
+  "stepAnswer": [
+    "CREATE TABLE user (id INT PRIMARY KEY)"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "ID Utama",
+  "stepBody": "Buat tabel 'user' dengan kolom 'id' (INT) sebagai PRIMARY KEY.",
+  "answerType": "string",
+  "variabilization": {}
+}

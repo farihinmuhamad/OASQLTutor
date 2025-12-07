@@ -1,0 +1,12 @@
+{
+  "id": "topic2_logica",
+  "stepAnswer": [
+    "SELECT * FROM produk WHERE kategori = 'Elektronik' AND stok < 10",
+    "SELECT * FROM produk WHERE kategori = 'Elektronik' AND stok < 10;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Filter Ganda (Kategori & Stok)",
+  "stepBody": "Tampilkan produk yang kategorinya 'Elektronik' DAN stoknya kurang dari 10 item (stok menipis).",
+  "answerType": "string",
+  "variabilization": {}
+}

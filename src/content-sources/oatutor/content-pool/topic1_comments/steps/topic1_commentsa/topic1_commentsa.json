@@ -1,0 +1,15 @@
+{
+  "id": "topic1_commentsa",
+  "stepAnswer": [
+    "SELECT * FROM produk -- Cek Stok",
+    "SELECT * FROM produk; -- Cek Stok",
+    "select * from produk -- Cek Stok",
+    "select * from produk -- cek stok",
+    "select * from produk; -- Cek Stok"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Single Line Comment",
+  "stepBody": "Tuliskan query untuk mengambil semua data dari tabel 'produk', lalu tambahkan komentar satu baris di sebelahnya dengan tulisan: -- Cek Stok",
+  "answerType": "string",
+  "variabilization": {}
+}

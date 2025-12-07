@@ -1,0 +1,9 @@
+{
+  "id": "topic6_delete",
+  "title": "DML: Delete Data",
+  "body": "DELETE menghapus baris dari tabel.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "6.1 DML",
+  "courseName": "Pengantar SQL"
+}

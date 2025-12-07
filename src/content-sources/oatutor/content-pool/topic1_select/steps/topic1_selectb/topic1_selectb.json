@@ -1,0 +1,14 @@
+{
+  "id": "topic1_selectb",
+  "stepAnswer": [
+    "SELECT nama_produk, harga FROM produk",
+    "SELECT nama_produk, harga FROM produk;",
+    "select nama_produk, harga from produk",
+    "select nama_produk, harga from produk;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "2. Menampilkan Kolom Tertentu",
+  "stepBody": "Tim marketing hanya membutuhkan daftar nama barang dan harganya saja. Tuliskan query untuk mengambil kolom 'nama_produk' dan 'harga'.",
+  "answerType": "string",
+  "variabilization": {}
+}

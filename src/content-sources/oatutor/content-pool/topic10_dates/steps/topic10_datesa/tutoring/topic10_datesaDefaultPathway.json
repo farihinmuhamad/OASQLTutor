@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic10_datesa-h1",
+    "title": "Fungsi Waktu",
+    "text": "NOW() menampilkan tanggal dan jam saat ini.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic10_datesa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT NOW()",
+    "type": "solution",
+    "dependencies": [
+      "topic10_datesa-h1"
+    ],
+    "variabilization": {}
+  }
+]

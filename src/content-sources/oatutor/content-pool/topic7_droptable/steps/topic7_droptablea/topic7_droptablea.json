@@ -1,0 +1,11 @@
+{
+  "id": "topic7_droptablea",
+  "stepAnswer": [
+    "DROP TABLE barang"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Hapus Tabel",
+  "stepBody": "Hapus tabel 'barang'.",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic8_autoincrementa-h1",
+    "title": "Auto Increment",
+    "text": "Fitur ini memudahkan penomoran otomatis.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic8_autoincrementa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE TABLE log (id INT AUTO_INCREMENT)",
+    "type": "solution",
+    "dependencies": [
+      "topic8_autoincrementa-h1"
+    ],
+    "variabilization": {}
+  }
+]

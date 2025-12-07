@@ -1,0 +1,11 @@
+{
+  "id": "topic5_alla",
+  "stepAnswer": [
+    "SELECT * FROM produk WHERE harga > ALL (SELECT harga FROM produk WHERE kategori = 'Aksesoris')"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Paling Mahal",
+  "stepBody": "Tampilkan produk yang harganya lebih tinggi dari ALL (semua) produk kategori 'Aksesoris'.",
+  "answerType": "string",
+  "variabilization": {}
+}

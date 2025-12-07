@@ -1,0 +1,11 @@
+{
+  "id": "topic9_indexa",
+  "stepAnswer": [
+    "CREATE INDEX idx_nama ON karyawan (nama)"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Index Nama",
+  "stepBody": "Buat index bernama 'idx_nama' pada kolom 'nama' di tabel 'karyawan'.",
+  "answerType": "string",
+  "variabilization": {}
+}

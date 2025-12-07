@@ -1,0 +1,9 @@
+{
+  "id": "topic8_foreignkey",
+  "title": "Constraint: Foreign Key",
+  "body": "Menghubungkan ke Primary Key tabel lain.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "8.1 Constraint",
+  "courseName": "Pengantar SQL"
+}

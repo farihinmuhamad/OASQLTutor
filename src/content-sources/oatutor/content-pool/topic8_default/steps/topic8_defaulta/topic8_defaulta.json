@@ -1,0 +1,11 @@
+{
+  "id": "topic8_defaulta",
+  "stepAnswer": [
+    "CREATE TABLE akun (status VARCHAR(20) DEFAULT 'aktif')"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Status Aktif",
+  "stepBody": "Buat tabel 'akun' dengan kolom 'status' (VARCHAR), set DEFAULT 'aktif'.",
+  "answerType": "string",
+  "variabilization": {}
+}

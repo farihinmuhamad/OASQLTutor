@@ -1,0 +1,9 @@
+{
+  "id": "topic2_operators",
+  "title": "Operator dan Kondisi: Operator Perbandingan",
+  "body": "Selain tanda sama dengan (=), SQL mendukung operator perbandingan lain seperti lebih besar (>), lebih kecil (<), atau tidak sama dengan (!= atau <>).",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "2.1 Operator dan Kondisi",
+  "courseName": "Pengantar SQL"
+}

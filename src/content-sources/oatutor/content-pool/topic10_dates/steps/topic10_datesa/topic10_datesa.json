@@ -1,0 +1,12 @@
+{
+  "id": "topic10_datesa",
+  "stepAnswer": [
+    "SELECT NOW()",
+    "SELECT CURDATE()"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Tanggal Hari Ini",
+  "stepBody": "Tuliskan query untuk mengambil tanggal hari ini menggunakan fungsi NOW() atau CURDATE().",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "topic7_dropdba",
+  "stepAnswer": [
+    "DROP DATABASE toko_lama"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Hapus Database",
+  "stepBody": "Hapus database 'toko_lama'.",
+  "answerType": "string",
+  "variabilization": {}
+}

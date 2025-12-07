@@ -1,0 +1,30 @@
+[
+  {
+    "id": "topic3_suma-h1",
+    "title": "Fungsi SUM",
+    "text": "Gunakan fungsi SUM(nama_kolom).",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_suma-h2",
+    "title": "Target Tabel",
+    "text": "Perhatikan nama tabel yang diminta adalah 'penjualan'.",
+    "type": "hint",
+    "dependencies": [
+      "topic3_suma-h1"
+    ],
+    "variabilization": {}
+  },
+  {
+    "id": "topic3_suma-h3",
+    "title": "Jawaban",
+    "text": "Jawaban: SELECT SUM(total) FROM penjualan",
+    "type": "solution",
+    "dependencies": [
+      "topic3_suma-h2"
+    ],
+    "variabilization": {}
+  }
+]

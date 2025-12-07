@@ -1,0 +1,9 @@
+{
+  "id": "topic2_case",
+  "title": "Operator dan Kondisi: Logika Kondisional (CASE)",
+  "body": "Statement CASE digunakan untuk membuat logika IF-THEN dalam query SQL untuk memanipulasi tampilan data.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "2.1 Operator dan Kondisi",
+  "courseName": "Pengantar SQL"
+}

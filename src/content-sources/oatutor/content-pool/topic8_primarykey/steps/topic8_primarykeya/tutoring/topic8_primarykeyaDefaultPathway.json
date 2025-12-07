@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic8_primarykeya-h1",
+    "title": "Primary Key",
+    "text": "Setiap tabel sebaiknya punya satu Primary Key.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic8_primarykeya-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE TABLE user (id INT PRIMARY KEY)",
+    "type": "solution",
+    "dependencies": [
+      "topic8_primarykeya-h1"
+    ],
+    "variabilization": {}
+  }
+]

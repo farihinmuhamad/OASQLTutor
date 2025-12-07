@@ -1,0 +1,14 @@
+{
+  "id": "topic1_selecta",
+  "stepAnswer": [
+    "SELECT * FROM produk",
+    "SELECT * FROM produk;",
+    "select * from produk",
+    "select * from produk;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "1. Menampilkan Semua Data",
+  "stepBody": "Manajer gudang ingin melihat seluruh data inventaris. Tuliskan query untuk menampilkan SEMUA kolom dari tabel 'produk'.",
+  "answerType": "string",
+  "variabilization": {}
+}

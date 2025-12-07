@@ -1,0 +1,9 @@
+{
+  "id": "topic2_nullfunctions",
+  "title": "Operator dan Kondisi: Menangani NULL (COALESCE/ISNULL)",
+  "body": "Fungsi COALESCE sangat berguna untuk mengganti nilai NULL dengan nilai default saat data ditampilkan.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "2.1 Operator dan Kondisi",
+  "courseName": "Pengantar SQL"
+}

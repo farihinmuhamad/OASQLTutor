@@ -1,0 +1,37 @@
+[
+  {
+    "id": "topic2_wherea-h1",
+    "title": "Sintaks Dasar",
+    "text": "Gunakan kata kunci WHERE setelah nama tabel untuk menentukan kondisi penyaringan.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_wherea-h2",
+    "title": "Tipe Data Teks",
+    "text": "Karena 'Elektronik' adalah data teks (string), Anda wajib mengapitnya dengan tanda kutip tunggal ('). Contoh: kolom = 'Nilai'.",
+    "type": "hint",
+    "dependencies": ["topic2_wherea-h1"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_wherea-scaffold",
+    "title": "Lengkapi Query",
+    "text": "Lengkapi: SELECT * FROM produk ... kategori = ...",
+    "hintAnswer": ["WHERE"],
+    "problemType": "TextBox",
+    "answerType": "string",
+    "type": "scaffold",
+    "dependencies": ["topic2_wherea-h2"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic2_wherea-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT * FROM produk WHERE kategori = 'Elektronik'",
+    "type": "solution",
+    "dependencies": ["topic2_wherea-scaffold"],
+    "variabilization": {}
+  }
+]

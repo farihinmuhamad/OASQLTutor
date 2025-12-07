@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic7_altertablea-h1",
+    "title": "Syntax Alter",
+    "text": "ALTER TABLE tabel ADD nama_kolom tipe_data",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic7_altertablea-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: ALTER TABLE barang ADD harga INT",
+    "type": "solution",
+    "dependencies": [
+      "topic7_altertablea-h1"
+    ],
+    "variabilization": {}
+  }
+]

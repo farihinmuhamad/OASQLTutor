@@ -1,0 +1,11 @@
+{
+  "id": "topic7_createtablea",
+  "stepAnswer": [
+    "CREATE TABLE barang (id INT, nama VARCHAR(50))"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Tabel Barang",
+  "stepBody": "Buat tabel 'barang' dengan kolom: id (INT) dan nama (VARCHAR(50)).",
+  "answerType": "string",
+  "variabilization": {}
+}

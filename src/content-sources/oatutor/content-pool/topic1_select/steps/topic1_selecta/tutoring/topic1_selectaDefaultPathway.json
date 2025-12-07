@@ -1,0 +1,26 @@
+[
+  {
+    "id": "topic1_selecta-h1",
+    "title": "Penggunaan Wildcard",
+    "text": "Untuk memilih semua kolom tanpa mengetik namanya satu per satu, gunakan simbol bintang (*).",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_selecta-h2",
+    "title": "Struktur Query",
+    "text": "Format dasarnya adalah: SELECT [kolom] FROM [tabel]",
+    "type": "hint",
+    "dependencies": ["topic1_selecta-h1"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_selecta-sol",
+    "title": "Solusi",
+    "text": "Jawaban: SELECT * FROM produk",
+    "type": "solution",
+    "dependencies": ["topic1_selecta-h2"],
+    "variabilization": {}
+  }
+]

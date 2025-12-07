@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic7_droptablea-h1",
+    "title": "Syntax",
+    "text": "DROP TABLE nama_tabel",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic7_droptablea-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: DROP TABLE barang",
+    "type": "solution",
+    "dependencies": [
+      "topic7_droptablea-h1"
+    ],
+    "variabilization": {}
+  }
+]

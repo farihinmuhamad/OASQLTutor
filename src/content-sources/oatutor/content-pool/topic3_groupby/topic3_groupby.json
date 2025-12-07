@@ -1,0 +1,9 @@
+{
+  "id": "topic3_groupby",
+  "title": "Fungsi Agregasi: Pengelompokan (GROUP BY)",
+  "body": "Seringkali kita ingin melihat agregasi per kategori, misalnya 'Rata-rata gaji PER divisi'. Untuk ini kita wajib menggunakan GROUP BY.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "3.1 Fungsi Agregasi",
+  "courseName": "Pengantar SQL"
+}

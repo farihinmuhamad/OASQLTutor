@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic6_deletea-h1",
+    "title": "Format Delete",
+    "text": "DELETE FROM tabel WHERE kondisi",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic6_deletea-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: DELETE FROM pelanggan WHERE nama = 'Budi'",
+    "type": "solution",
+    "dependencies": [
+      "topic6_deletea-h1"
+    ],
+    "variabilization": {}
+  }
+]

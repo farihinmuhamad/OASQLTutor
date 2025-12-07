@@ -1,0 +1,9 @@
+{
+  "id": "topic4_left",
+  "title": "Join: Left Join",
+  "body": "LEFT JOIN mengambil semua data dari tabel kiri, dan data yang cocok dari kanan (sisanya NULL).",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "4.1 Join dan Relasi",
+  "courseName": "Pengantar SQL"
+}

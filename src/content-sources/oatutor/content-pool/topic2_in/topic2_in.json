@@ -1,0 +1,9 @@
+{
+  "id": "topic2_in",
+  "title": "Operator dan Kondisi: Operator IN",
+  "body": "Daripada menulis banyak OR (kota='A' OR kota='B'), gunakan IN untuk memilih dari sekumpulan daftar.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "2.1 Operator dan Kondisi",
+  "courseName": "Pengantar SQL"
+}

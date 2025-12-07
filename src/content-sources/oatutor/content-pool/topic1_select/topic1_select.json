@@ -1,0 +1,9 @@
+{
+  "id": "topic1_select",
+  "title": "Query Dasar: Statement SELECT",
+  "body": "Dalam basis data toko online, terdapat tabel bernama 'produk' yang menyimpan inventaris barang. Tabel ini memiliki kolom: id, nama_produk, kategori, harga, dan stok.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "1.1 Query Dasar",
+  "courseName": "Pengantar SQL"
+}

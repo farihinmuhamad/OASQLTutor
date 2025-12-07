@@ -1,0 +1,12 @@
+{
+  "id": "topic3_suma",
+  "stepAnswer": [
+    "SELECT SUM(total) FROM penjualan",
+    "SELECT SUM(total) FROM penjualan;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Total Omset",
+  "stepBody": "Hitung total omset pendapatan dari seluruh transaksi yang ada di kolom 'total' pada tabel 'penjualan'.",
+  "answerType": "string",
+  "variabilization": {}
+}

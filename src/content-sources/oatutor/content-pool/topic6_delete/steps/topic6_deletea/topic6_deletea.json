@@ -1,0 +1,11 @@
+{
+  "id": "topic6_deletea",
+  "stepAnswer": [
+    "DELETE FROM pelanggan WHERE nama = 'Budi'"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Hapus Pelanggan",
+  "stepBody": "Hapus data pelanggan yang namanya 'Budi'.",
+  "answerType": "string",
+  "variabilization": {}
+}

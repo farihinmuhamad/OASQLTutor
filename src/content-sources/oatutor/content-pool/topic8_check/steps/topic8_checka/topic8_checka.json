@@ -1,0 +1,11 @@
+{
+  "id": "topic8_checka",
+  "stepAnswer": [
+    "CREATE TABLE orang (usia INT, CHECK (usia >= 17))"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Usia Dewasa",
+  "stepBody": "Buat tabel 'orang' dengan kolom 'usia' (INT), tambahkan CHECK usia >= 17.",
+  "answerType": "string",
+  "variabilization": {}
+}

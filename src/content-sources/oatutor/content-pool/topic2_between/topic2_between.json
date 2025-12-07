@@ -1,0 +1,9 @@
+{
+  "id": "topic2_between",
+  "title": "Operator dan Kondisi: Rentang Nilai (BETWEEN)",
+  "body": "Operator BETWEEN digunakan untuk memfilter data dalam rentang jumlah tertentu.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "2.1 Operator dan Kondisi",
+  "courseName": "Pengantar SQL"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "topic1_commentsa-h1",
+    "title": "Sintaks Komentar",
+    "text": "Untuk membuat komentar satu baris di SQL, gunakan tanda dua garis minus (--) diikuti spasi.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_commentsa-h2",
+    "title": "Posisi Komentar",
+    "text": "Letakkan komentar di akhir query. Komputer tidak akan membaca teks setelah tanda --.",
+    "type": "hint",
+    "dependencies": ["topic1_commentsa-h1"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_commentsa-scaffold",
+    "title": "Lengkapi Kode",
+    "text": "Lengkapi: SELECT * FROM produk ... Cek Stok",
+    "hintAnswer": ["--"],
+    "problemType": "TextBox",
+    "answerType": "string",
+    "type": "scaffold",
+    "dependencies": ["topic1_commentsa-h2"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_commentsa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT * FROM produk -- Cek Stok",
+    "type": "solution",
+    "dependencies": ["topic1_commentsa-scaffold"],
+    "variabilization": {}
+  }
+]

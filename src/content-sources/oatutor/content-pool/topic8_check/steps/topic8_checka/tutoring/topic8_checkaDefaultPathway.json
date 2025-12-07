@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic8_checka-h1",
+    "title": "Logika Check",
+    "text": "CHECK (kondisi logika).",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic8_checka-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: CREATE TABLE orang (usia INT, CHECK (usia >= 17))",
+    "type": "solution",
+    "dependencies": [
+      "topic8_checka-h1"
+    ],
+    "variabilization": {}
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic10_backupa-h1",
+    "title": "To Disk",
+    "text": "Perintah BACKUP DATABASE nama TO DISK = 'path'.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic10_backupa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: BACKUP DATABASE toko TO DISK = 'D:\\backup.bak'",
+    "type": "solution",
+    "dependencies": [
+      "topic10_backupa-h1"
+    ],
+    "variabilization": {}
+  }
+]

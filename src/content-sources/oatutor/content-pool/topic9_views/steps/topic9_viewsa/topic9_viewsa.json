@@ -1,0 +1,11 @@
+{
+  "id": "topic9_viewsa",
+  "stepAnswer": [
+    "CREATE VIEW view_aktif AS SELECT * FROM karyawan WHERE status = 'aktif'"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "View Karyawan Aktif",
+  "stepBody": "Buat VIEW bernama 'view_aktif' yang berisi SELECT * FROM karyawan WHERE status = 'aktif'.",
+  "answerType": "string",
+  "variabilization": {}
+}

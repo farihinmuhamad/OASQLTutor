@@ -1,0 +1,9 @@
+{
+  "id": "topic9_views",
+  "title": "Objek: Views",
+  "body": "View adalah tabel virtual hasil query SELECT.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "9.1 Objek Database",
+  "courseName": "Pengantar SQL"
+}

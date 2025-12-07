@@ -1,0 +1,11 @@
+{
+  "id": "topic6_updatea",
+  "stepAnswer": [
+    "UPDATE pelanggan SET kota = 'Surabaya' WHERE nama = 'Budi'"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Ganti Kota",
+  "stepBody": "Ubah 'kota' menjadi 'Surabaya' untuk pelanggan dengan nama 'Budi'.",
+  "answerType": "string",
+  "variabilization": {}
+}

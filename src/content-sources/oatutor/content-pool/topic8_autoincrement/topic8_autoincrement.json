@@ -1,0 +1,9 @@
+{
+  "id": "topic8_autoincrement",
+  "title": "Constraint: Auto Increment",
+  "body": "Membuat angka urut otomatis (biasanya untuk ID).",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "8.1 Constraint",
+  "courseName": "Pengantar SQL"
+}

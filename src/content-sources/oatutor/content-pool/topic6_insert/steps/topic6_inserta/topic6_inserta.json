@@ -1,0 +1,11 @@
+{
+  "id": "topic6_inserta",
+  "stepAnswer": [
+    "INSERT INTO pelanggan (id, nama, kota) VALUES (101, 'Budi', 'Jakarta')"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Tambah Pelanggan",
+  "stepBody": "Masukkan data baru ke tabel 'pelanggan' (id, nama, kota) dengan nilai: 101, 'Budi', 'Jakarta'.",
+  "answerType": "string",
+  "variabilization": {}
+}

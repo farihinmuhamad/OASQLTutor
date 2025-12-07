@@ -1,0 +1,12 @@
+{
+  "id": "topic9_storedproca",
+  "stepAnswer": [
+    "CREATE PROCEDURE cek_stok AS SELECT * FROM stok",
+    "CREATE PROCEDURE cek_stok() BEGIN SELECT * FROM stok; END"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Prosedur Stok",
+  "stepBody": "Buat PROCEDURE bernama 'cek_stok' yang berisi SELECT * FROM stok.",
+  "answerType": "string",
+  "variabilization": {}
+}

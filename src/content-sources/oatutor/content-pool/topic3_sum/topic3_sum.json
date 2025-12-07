@@ -1,0 +1,9 @@
+{
+  "id": "topic3_sum",
+  "title": "Fungsi Agregasi: Penjumlahan Total (SUM)",
+  "body": "Fungsi SUM digunakan untuk menjumlahkan nilai numerik dalam sebuah kolom. Kita beralih ke tabel 'penjualan' (kolom: id, tanggal, total).",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "3.1 Fungsi Agregasi",
+  "courseName": "Pengantar SQL"
+}

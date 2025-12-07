@@ -1,0 +1,14 @@
+{
+  "id": "topic1_nullsa",
+  "stepAnswer": [
+    "SELECT * FROM pelanggan WHERE email IS NULL",
+    "SELECT * FROM pelanggan WHERE email IS NULL;",
+    "select * from pelanggan where email is null",
+    "select * from pelanggan where email is null;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Mencari Data NULL",
+  "stepBody": "Tuliskan query untuk menampilkan seluruh data pelanggan yang kolom 'email'-nya masih kosong (bernilai NULL).",
+  "answerType": "string",
+  "variabilization": {}
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "topic1_aliasesa-h1",
+    "title": "Keyword AS",
+    "text": "Gunakan kata kunci AS setelah nama kolom asli untuk memberikan nama baru.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_aliasesa-h2",
+    "title": "Contoh Penggunaan",
+    "text": "Contoh sintaks: SELECT kolom_lama AS NamaBaru FROM tabel",
+    "type": "hint",
+    "dependencies": ["topic1_aliasesa-h1"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_aliasesa-scaffold",
+    "title": "Lengkapi Query",
+    "text": "Lengkapi: SELECT nama_produk ... Barang, harga ... Rupiah FROM produk",
+    "hintAnswer": ["AS"],
+    "problemType": "TextBox",
+    "answerType": "string",
+    "type": "scaffold",
+    "dependencies": ["topic1_aliasesa-h2"],
+    "variabilization": {}
+  },
+  {
+    "id": "topic1_aliasesa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT nama_produk AS Barang, harga AS Rupiah FROM produk",
+    "type": "solution",
+    "dependencies": ["topic1_aliasesa-scaffold"],
+    "variabilization": {}
+  }
+]

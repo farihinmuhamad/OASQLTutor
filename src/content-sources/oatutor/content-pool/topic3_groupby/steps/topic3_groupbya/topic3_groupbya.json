@@ -1,0 +1,12 @@
+{
+  "id": "topic3_groupbya",
+  "stepAnswer": [
+    "SELECT divisi, COUNT(*) FROM karyawan GROUP BY divisi",
+    "SELECT divisi, COUNT(*) FROM karyawan GROUP BY divisi;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Jumlah Karyawan per Divisi",
+  "stepBody": "Tampilkan nama 'divisi' dan jumlah karyawan (COUNT) untuk setiap divisi dari tabel 'karyawan'.",
+  "answerType": "string",
+  "variabilization": {}
+}

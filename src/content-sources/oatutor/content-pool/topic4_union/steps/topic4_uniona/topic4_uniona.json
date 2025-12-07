@@ -1,0 +1,11 @@
+{
+  "id": "topic4_uniona",
+  "stepAnswer": [
+    "SELECT kota FROM pelanggan UNION SELECT kota FROM supplier"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Gabung Kota",
+  "stepBody": "Gabungkan daftar 'kota' dari tabel 'pelanggan' dan 'supplier' menjadi satu daftar unik.",
+  "answerType": "string",
+  "variabilization": {}
+}

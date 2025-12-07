@@ -1,0 +1,12 @@
+{
+  "id": "topic3_minmaxa",
+  "stepAnswer": [
+    "SELECT MIN(gaji) AS GajiTerendah, MAX(gaji) AS GajiTertinggi FROM karyawan",
+    "SELECT MIN(gaji) AS GajiTerendah, MAX(gaji) AS GajiTertinggi FROM karyawan;"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Mencari Range Gaji",
+  "stepBody": "Tuliskan query untuk menampilkan gaji terendah (MIN) dan gaji tertinggi (MAX) dari tabel 'karyawan'. Beri alias 'GajiTerendah' dan 'GajiTertinggi'.",
+  "answerType": "string",
+  "variabilization": {}
+}

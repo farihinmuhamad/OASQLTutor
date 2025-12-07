@@ -1,0 +1,9 @@
+{
+  "id": "topic1_nulls",
+  "title": "Query Dasar: Menangani Data Kosong (NULL)",
+  "body": "Dalam database, data yang tidak diisi atau tidak diketahui disimpan sebagai NULL. NULL berbeda dengan angka 0 atau teks kosong (string kosong). Perlakuan terhadap NULL memerlukan operator khusus.",
+  "variabilization": {},
+  "oer": "https://oatutor.io",
+  "lesson": "1.1 Query Dasar",
+  "courseName": "Pengantar SQL"
+}

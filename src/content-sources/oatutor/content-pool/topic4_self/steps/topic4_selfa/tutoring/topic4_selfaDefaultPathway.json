@@ -1,0 +1,20 @@
+[
+  {
+    "id": "topic4_selfa-h1",
+    "title": "Alias",
+    "text": "Gunakan FROM karyawan A, karyawan B.",
+    "type": "hint",
+    "dependencies": [],
+    "variabilization": {}
+  },
+  {
+    "id": "topic4_selfa-sol",
+    "title": "Jawaban Akhir",
+    "text": "Jawaban: SELECT A.nama, B.nama FROM karyawan A, karyawan B WHERE A.boss_id = B.id",
+    "type": "solution",
+    "dependencies": [
+      "topic4_selfa-h1"
+    ],
+    "variabilization": {}
+  }
+]

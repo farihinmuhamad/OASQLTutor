@@ -1,0 +1,13 @@
+{
+  "id": "topic2_wildcardsa",
+  "stepAnswer": [
+    "SELECT * FROM produk WHERE id LIKE '___01'",
+    "SELECT * FROM produk WHERE id LIKE '___01';",
+    "select * from produk where id like '___01'"
+  ],
+  "problemType": "TextBox",
+  "stepTitle": "Mencari Pola Spesifik",
+  "stepBody": "Cari data pada tabel 'Produk' yang kode-nya terdiri dari 5 karakter, dimana dua karakter akhir dari kode yang dicari adalah '01'. Gunakan 3 underscore di depan.",
+  "answerType": "string",
+  "variabilization": {}
+}
