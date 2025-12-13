@@ -36,8 +36,8 @@
     },
     "toast":
     {
-        "correct": "Correct Answer!",
-        "incorrect": "Incorrect Answer!",
+        "correct": "Jawaban anda benar!",
+        "incorrect": "Jawaban anda salah!",
         "simplify": "Please simplify!",
         "cantProcess": "Our system could not process that answer",
         "stepComplete": "Step Completed!",
