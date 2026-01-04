@@ -4,6 +4,10 @@ import Grid from "@material-ui/core/Grid";
 import ProblemWrapper from "@components/problem-layout/ProblemWrapper.js";
 import LessonSelectionWrapper from "@components/problem-layout/LessonSelectionWrapper.js";
 import { withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { getAuth, signOut } from "firebase/auth";
+
+
 
 import {
     coursePlans,
@@ -408,9 +412,14 @@ class Platform extends React.Component {
 
     render() {
         const { translate } = this.props;
+        const authUser = getAuth().currentUser;
+
         this.studentNameDisplay = this.context.studentName
         ? decodeURIComponent(this.context.studentName) + " | "
-        : translate('platform.LoggedIn') + " | ";
+        : authUser
+        ? authUser.email + " | "
+        : translate("platform.LoggedIn") + " | ";
+
         return (
             <div
                 style={{
@@ -453,23 +462,62 @@ class Platform extends React.Component {
                                 </div>
                             </Grid>
                             <Grid item xs={3} key={3}>
-                                <div
+                            <div
+                                style={{
+                                textAlign: "right",
+                                paddingTop: "3px",
+                                display: "flex",
+                                justifyContent: "flex-end",
+                                gap: "16px",
+                                alignItems: "center",
+                                }}
+                            >
+                                {this.state.status === "learning" && (
+                                <>
+                                    {/* USER + MASTERY */}
+                                    <span>
+                                    {this.studentNameDisplay}
+                                    {translate("platform.Mastery")}
+                                    {Math.round(this.state.mastery * 100)}%
+                                    </span>
+
+                                    {/* PROGRESS LINK */}
+                                    <a
+                                    href={`${window.location.origin}/#/progress`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     style={{
-                                        textAlign: "right",
-                                        paddingTop: "3px",
+                                        color: "white",
+                                        textDecoration: "underline",
+                                        fontWeight: "bold",
+                                        cursor: "pointer",
+                                    }}
+                                    >
+                                    📊 Progress
+                                    </a>
+                                </>
+                                )}
+                                {/* 🔹 COURSE / LESSON SELECTION */}
+                                {(this.state.status === "courseSelection" ||
+                                this.state.status === "lessonSelection") && (
+                                <button
+                                    onClick={this.handleLogout}
+                                    style={{
+                                    background: "transparent",
+                                    border: "1px solid white",
+                                    color: "white",
+                                    padding: "4px 10px",
+                                    borderRadius: "4px",
+                                    cursor: "pointer",
                                     }}
                                 >
-                                    {this.state.status !== "courseSelection" &&
-                                    this.state.status !== "lessonSelection" &&
-                                    (this.lesson.showStuMastery == null ||
-                                        this.lesson.showStuMastery)
-                                        ? this.studentNameDisplay +
-                                        translate('platform.Mastery') +
-                                          Math.round(this.state.mastery * 100) +
-                                          "%"
-                                        : ""}
-                                </div>
+                                    🚪 Log Out
+                                </button>
+                                )}
+                            </div>
                             </Grid>
+
+
                         </Grid>
                     </Toolbar>
                 </AppBar>
@@ -533,6 +581,18 @@ class Platform extends React.Component {
             </div>
         );
     }
+    handleLogout = async () => {
+    try {
+        const auth = getAuth();
+        await signOut(auth);
+
+        // optional: redirect ke halaman awal
+        this.props.history.push("/");
+    } catch (err) {
+        console.error("Logout failed", err);
+    }
+    };
+
 }
 
 export default withRouter(withTranslation(Platform));

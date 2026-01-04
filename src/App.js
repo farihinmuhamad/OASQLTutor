@@ -8,6 +8,8 @@ import {
     AB_TEST_MODE
 } from "./config/config.js";
 
+import ProgressPage from "./pages/Progress/ProgressPage";
+
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NotFound from "@components/NotFound.js";
 
@@ -23,7 +25,7 @@ import {
     responsiveFontSizes,
     ThemeProvider,
 } from "@material-ui/core/styles";
-import { toast, ToastContainer } from "react-toastify";
+import { toast, ToastContainer, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import parseJwt from "./util/parseJWT";
@@ -48,6 +50,13 @@ import { heuristic as defaultHeuristic } from "./models/BKT/problem-select-heuri
 import { heuristic as experimentalHeuristic } from "./models/BKT/problem-select-heuristics/experimentalHeuristic.js";
 import BrowserStorage from "./util/browserStorage";
 // ### END CUSTOMIZABLE IMPORTS ###
+
+// ### BEGIN FIREBASE AUTHENTICATION HELPERS (FOR TESTING ONLY) ###
+//  import { login } from "./config/authService";
+// ### END FIREBASE AUTHENTICATION HELPERS (FOR TESTING ONLY) ###
+
+import { useAuth } from "./contexts/AuthContext";
+import LoginPage from "./pages/LoginPage";
 
 loadFirebaseEnvConfig(config);
 
@@ -100,6 +109,7 @@ class App extends React.Component {
         this.state = {
             additionalContext: {},
         };
+        this.firebaseReady = false;
 
         if (IS_STAGING_OR_DEVELOPMENT) {
             document["oats-meta-site-hash"] = process.env.REACT_APP_COMMIT_HASH;
@@ -138,6 +148,9 @@ class App extends React.Component {
                 SITE_VERSION,
                 additionalContext.user
             );
+
+            this.firebaseReady = true;
+
 
             let targetLocation = window.location.href.split("?")[0];
 
@@ -187,6 +200,18 @@ class App extends React.Component {
 
     componentDidMount() {
         this.mounted = true;
+        if (this.firebaseReady) {
+            this.forceUpdate(); // 🔥 INI KUNCI
+        }
+        // ===== FIREBASE AUTO LOGIN (TEST ONLY) =====
+        // login("farihinmuhamad@gmail.com", "123456")
+        //     .then(() => {
+        //         console.log("✅ Firebase auto-login OK");
+        //     })
+        //     .catch((err) => {
+        //         console.error("❌ Firebase auto-login failed:", err);
+        //     });
+        // ==========================================
     }
 
     componentWillUnmount() {
@@ -270,180 +295,186 @@ class App extends React.Component {
     };
 
     render() {
+    
+    if (!this.firebaseReady) {
+    return (
+      <div style={{ padding: 40, textAlign: "center" }}>
+        Initializing learning environment...
+      </div>
+    );
+  }
+
         return (
-            <ThemeProvider theme={theme}>
-                <ThemeContext.Provider
-                    value={{
-                        userID: this.userID,
-                        firebase: this.firebase,
-                        getTreatment: this.getTreatment,
-                        bktParams: this.bktParams,
-                        heuristic: this.getTreatmentObject(
-                            treatmentMapping.heuristic
-                        ),
-                        hintPathway: this.getTreatmentObject(
-                            treatmentMapping.hintPathway
-                        ),
-                        skillModel,
-                        credentials: config,
-                        debug: false,
-                        studentName: "",
-                        alreadyLinkedLesson: "",
-                        jwt: "",
-                        user: {},
-                        problemID: "n/a",
-                        problemIDs: null,
-                        ...this.state.additionalContext,
-                        browserStorage: this.browserStorage,
-                    }}
-                >
-                <LocalizationProvider>
-                    <GlobalErrorBoundary>
-                        <Router>
-                            <div className="Router">
-                                <Switch>
-                                    <Route
-                                        exact
-                                        path="/"
-                                        render={(props) => (
-                                            <Platform
-                                                key={Date.now()}
-                                                saveProgress={() =>
-                                                    this.saveProgress()
-                                                }
-                                                loadBktProgress={
-                                                    this.loadBktProgress
-                                                }
-                                                removeProgress={
-                                                    this.removeProgress
-                                                }
-                                                {...props}
-                                            />
-                                        )}
-                                    />
-                                    <Route
-                                        path="/courses/:courseNum"
-                                        render={(props) => (
-                                            <Platform
-                                                key={Date.now()}
-                                                saveProgress={() =>
-                                                    this.saveProgress()
-                                                }
-                                                loadBktProgress={
-                                                    this.loadBktProgress
-                                                }
-                                                removeProgress={
-                                                    this.removeProgress
-                                                }
-                                                courseNum={
-                                                    props.match.params.courseNum
-                                                }
-                                                {...props}
-                                            />
-                                        )}
-                                    />
-                                    <Route
-                                      exact
-                                      path="/lessons/:lessonID/problems"
-                                        component={ViewAllProblems}
-                                       />
-                                    <Route
-                                    exact
-                                        path="/lessons/:lessonID"
-                                        render={(props) => (
-                                            <Platform
-                                                key={Date.now()}
-                                                saveProgress={() =>
-                                                    this.saveProgress()
-                                                }
-                                                loadBktProgress={
-                                                    this.loadBktProgress
-                                                }
-                                                removeProgress={
-                                                    this.removeProgress
-                                                }
-                                                lessonID={
-                                                    props.match.params.lessonID
-                                                }
-                                                {...props}
-                                            />
-                                        )}
-                                    />
-                                    <Route
-                                        path="/debug/:problemID"
-                                        render={(props) => (
-                                            <DebugPlatform
-                                                key={Date.now()}
-                                                saveProgress={() =>
-                                                    this.saveProgress()
-                                                }
-                                                loadBktProgress={
-                                                    this.loadBktProgress
-                                                }
-                                                removeProgress={
-                                                    this.removeProgress
-                                                }
-                                                problemID={
-                                                    props.match.params.problemID
-                                                }
-                                                {...props}
-                                            />
-                                        )}
-                                    />
-                                    <Route
-                                        path="/posts"
-                                        render={(props) => (
-                                            <Posts
-                                                key={Date.now()}
-                                                {...props}
-                                            />
-                                        )}
-                                    />
-                                    <Route
-                                        exact
-                                        path="/assignment-not-linked"
-                                        render={(props) => (
-                                            <AssignmentNotLinked
-                                                key={Date.now()}
-                                                {...props}
-                                            />
-                                        )}
-                                    />
-                                    <Route
-                                        exact
-                                        path="/assignment-already-linked"
-                                        render={(props) => (
-                                            <AssignmentAlreadyLinked
-                                                key={Date.now()}
-                                                {...props}
-                                            />
-                                        )}
-                                    />
-                                    <Route
-                                        exact
-                                        path="/session-expired"
-                                        render={(props) => (
-                                            <SessionExpired
-                                                key={Date.now()}
-                                                {...props}
-                                            />
-                                        )}
-                                    />
-                                    <Route component={NotFound} />
-                                </Switch>
-                            </div>
-                            {DO_FOCUS_TRACKING && <TabFocusTrackerWrapper />}
-                        </Router>
-                        <ToastContainer
-                            autoClose={false}
-                            closeOnClick={false}
+        <ThemeProvider theme={theme}>
+        <ThemeContext.Provider
+            value={{
+            userID: this.userID,
+            firebase: this.firebase,
+            getTreatment: this.getTreatment,
+            bktParams: this.bktParams,
+            heuristic: this.getTreatmentObject(
+                treatmentMapping.heuristic
+            ),
+            hintPathway: this.getTreatmentObject(
+                treatmentMapping.hintPathway
+            ),
+            skillModel,
+            credentials: config,
+            debug: false,
+            studentName: "",
+            alreadyLinkedLesson: "",
+            jwt: "",
+            user: {},
+            problemID: "n/a",
+            problemIDs: null,
+            ...this.state.additionalContext,
+            browserStorage: this.browserStorage,
+            }}
+        >
+        <LocalizationProvider>
+          <GlobalErrorBoundary>
+
+            {/* 🔥 GLOBAL TOAST CONTAINER (WAJIB) */}
+            <ToastContainer
+              position="top-right"
+                autoClose={4000}          // durasi sampai progress bar penuh (ms)
+                closeOnClick={false}
+                newestOnTop
+                pauseOnFocusLoss={false}
+                pauseOnHover={false}
+                draggable={false}
+                closeButton={true}        // tombol X aktif
+                transition={Slide}    
+            />
+
+            <AuthGate>
+              {/* ⬇️ SELURUH APP LAMA TETAP UTUH */}
+              <Router>
+                <div className="Router">
+                  <Switch>
+                    <Route
+                        exact
+                        path="/"
+                        render={(props) => (
+                        <Platform
+                            key={Date.now()}
+                            saveProgress={this.saveProgress}
+                            loadBktProgress={this.loadBktProgress}
+                            removeProgress={this.removeProgress}
+                            {...props}
                         />
-                    </GlobalErrorBoundary>
-                    </LocalizationProvider>
-                </ThemeContext.Provider>
-            </ThemeProvider>
-        );
-    }
+                        )}
+                    />
+
+                    <Route
+                        path="/courses/:courseNum"
+                        render={(props) => (
+                        <Platform
+                            key={Date.now()}
+                            saveProgress={this.saveProgress}
+                            loadBktProgress={this.loadBktProgress}
+                            removeProgress={this.removeProgress}
+                            courseNum={props.match.params.courseNum}
+                            {...props}
+                        />
+                        )}
+                    />
+
+                    <Route
+                        exact
+                        path="/lessons/:lessonID/problems"
+                        component={ViewAllProblems}
+                    />
+
+                    <Route
+                        exact
+                        path="/lessons/:lessonID"
+                        render={(props) => (
+                        <Platform
+                            key={Date.now()}
+                            saveProgress={this.saveProgress}
+                            loadBktProgress={this.loadBktProgress}
+                            removeProgress={this.removeProgress}
+                            lessonID={props.match.params.lessonID}
+                            {...props}
+                        />
+                        )}
+                    />
+
+                    <Route
+                        path="/debug/:problemID"
+                        render={(props) => (
+                        <DebugPlatform
+                            key={Date.now()}
+                            saveProgress={this.saveProgress}
+                            loadBktProgress={this.loadBktProgress}
+                            removeProgress={this.removeProgress}
+                            problemID={props.match.params.problemID}
+                            {...props}
+                        />
+                        )}
+                    />
+
+                    <Route
+                        path="/posts"
+                        render={(props) => <Posts key={Date.now()} {...props} />}
+                    />
+
+                    <Route
+                        exact
+                        path="/assignment-not-linked"
+                        render={(props) => (
+                        <AssignmentNotLinked key={Date.now()} {...props} />
+                        )}
+                    />
+
+                    <Route
+                        exact
+                        path="/assignment-already-linked"
+                        render={(props) => (
+                        <AssignmentAlreadyLinked key={Date.now()} {...props} />
+                        )}
+                    />
+
+                    <Route
+                        exact
+                        path="/session-expired"
+                        render={(props) => (
+                        <SessionExpired key={Date.now()} {...props} />
+                        )}
+                    />
+
+                    <Route path="/progress" component={ProgressPage} />
+
+                    <Route component={NotFound} />
+                    </Switch>
+
+                </div>
+              </Router>
+            </AuthGate>
+          </GlobalErrorBoundary>
+        </LocalizationProvider>
+      </ThemeContext.Provider>
+    </ThemeProvider>
+  );
 }
+
+}
+
+function AuthGate({ children }) {
+  const { user } = useAuth();
+
+  const isRootPath =
+    window.location.hash === "" ||
+    window.location.hash === "#/" ||
+    window.location.hash.startsWith("#/?");
+
+  if (!user && isRootPath) {
+    return <LoginPage />;
+  }
+
+  return children;
+}
+
 
 export default App;

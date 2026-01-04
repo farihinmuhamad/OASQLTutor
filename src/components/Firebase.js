@@ -1,3 +1,11 @@
+import { getAuth } from "firebase/auth";
+
+import {
+  updateSkillProgress,
+  updateLessonProgress,
+} from "../util/updateProgress";
+
+
 import {
     CURRENT_SEMESTER,
     DO_LOG_DATA,
@@ -44,6 +52,26 @@ class Firebase {
         this.siteVersion = siteVersion;
         this.mouseLogBuffer = [];
         this.ltiContext = ltiContext;
+    }
+
+    async logSkillProgress(problemID, step, isCorrect, lesson, courseName) {
+        if (!step?.knowledgeComponents) return;
+
+        for (const kc of step.knowledgeComponents) {
+        await updateSkillProgress(
+            this.db,
+            this._getFirebaseUID(),
+            kc,
+            lesson,
+            isCorrect
+        );
+        }
+
+        await updateLessonProgress(
+        this.db,
+        this._getFirebaseUID(),
+        lesson
+        );
     }
 
     getCollectionName(targetCollection) {
@@ -140,6 +168,7 @@ class Firebase {
             siteVersion: this.siteVersion,
             siteCommitHash: process.env.REACT_APP_COMMIT_HASH,
             oats_user_id: this.oats_user_id,
+            firebase_uid: this._getFirebaseUID(),
             treatment: this.treatment,
             time_stamp: Date.now(),
 
@@ -180,6 +209,24 @@ class Firebase {
             ])
         );
     }
+
+
+async logRealtimeEvent(collectionName, payload) {
+    if (!DO_LOG_DATA || !ENABLE_FIREBASE) return;
+
+    const collection = this.getCollectionName(collectionName);
+    const data = this.addMetaData(payload);
+
+    try {
+        await setDoc(
+            doc(this.db, collection, this._getReadableID()),
+            data
+        );
+    } catch (err) {
+        console.debug("Realtime log failed (non-critical)", err);
+    }
+}
+
 
     _getReadableID() {
         const today = new Date();
@@ -246,8 +293,30 @@ class Firebase {
             dynamicHint,
             bioInfo,
         };
-        // return this.writeData(GPTExperimentOutput, data);
-        return this.writeData(problemSubmissionsOutput, data);
+            
+            this.logRealtimeEvent(problemSubmissionsOutput, {
+            eventType,
+            problemID,
+            stepID: step?.id,
+            input: inputVal?.toString(),
+            correctAnswer: step?.stepAnswer?.toString(),
+            isCorrect,
+            lesson,
+            Content: courseName,
+            knowledgeComponents: step?.knowledgeComponents || [],
+            hintType,
+            dynamicHint,
+            bioInfo,
+            });
+
+            
+            this.logSkillProgress(
+            problemID,
+            step,
+            isCorrect,
+            lesson,
+            courseName
+            );
     }
 
     hintLog(
@@ -288,7 +357,6 @@ class Firebase {
             dynamicHint,
             bioInfo,
         };
-        // return this.writeData(GPTExperimentOutput, data);
         return this.writeData(problemSubmissionsOutput, data);
     }
 
@@ -405,6 +473,16 @@ class Firebase {
         };
         return this.writeData(feedbackOutput, data);
     }
+    _getFirebaseUID() {
+    try {
+        const auth = getAuth();
+        return auth.currentUser ? auth.currentUser.uid : null;
+    } catch (e) {
+        return null;
+    }
+    
+}
+
 }
 
 export default Firebase;
