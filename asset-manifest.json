@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/farihinmuhamad/OASQLTutor/static/css/main.fc10b73d.css",
+    "main.js": "/farihinmuhamad/OASQLTutor/static/js/main.b97c2e22.js",
+    "static/media/Symbola.svg": "/farihinmuhamad/OASQLTutor/static/media/Symbola.f647c9292a2da02d9ae8.svg",
+    "static/media/Symbola.eot": "/farihinmuhamad/OASQLTutor/static/media/Symbola.d25fbd520f6558203fb4.eot",
+    "static/media/Symbola.ttf": "/farihinmuhamad/OASQLTutor/static/media/Symbola.1ac5fa7f9b82ed4ce3f3.ttf",
+    "static/media/Symbola.woff": "/farihinmuhamad/OASQLTutor/static/media/Symbola.353fd9bde3c87711f5fc.woff",
+    "static/media/Symbola.woff2": "/farihinmuhamad/OASQLTutor/static/media/Symbola.080d8bb6a36e8bd8966b.woff2",
+    "index.html": "/farihinmuhamad/OASQLTutor/index.html",
+    "main.fc10b73d.css.map": "/farihinmuhamad/OASQLTutor/static/css/main.fc10b73d.css.map",
+    "main.b97c2e22.js.map": "/farihinmuhamad/OASQLTutor/static/js/main.b97c2e22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc10b73d.css",
+    "static/js/main.b97c2e22.js"
+  ]
+}
